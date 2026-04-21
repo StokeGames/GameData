@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-04-18T19:00:55.293529+00:00",
+  "vehicleArmorIds": [
+    "blink",
+    "brawler",
+    "bush",
+    "canopener",
+    "deadeye",
+    "drone",
+    "healer",
+    "ram",
+    "ranger",
+    "recall",
+    "sentinel",
+    "sonar",
+    "stealth",
+    "vanguard",
+    "vtol",
+    "wall"
+  ],
+  "mapImageIds": [
+    "divide",
+    "fields",
+    "ikarus-only",
+    "ravine",
+    "ruins",
+    "sandbox",
+    "scorch",
+    "wind-valley"
+  ]
+}

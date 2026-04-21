@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+.idea/
+.vscode/
+
+*.tmp
+*.temp

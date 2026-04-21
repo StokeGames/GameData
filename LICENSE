@@ -1,0 +1,170 @@
+STOKE GAMES DATA AND ASSETS LICENSE
+Version 1.0
+Effective Date: 2026-04-20
+
+This License governs the use of the data and asset repository identified as
+GameData (the "Repository"). By accessing, copying, or using the Repository,
+you agree to this License.
+
+Notice: This License is not an open source license. The Licensed Materials are
+made available on a limited, source-available basis only under the terms of
+this License.
+
+1. Definitions
+
+"Stoke Games" means Stoke Games and its licensors.
+
+"Licensed Materials" means the data, database contents, text, metadata,
+images, models, audio, audiovisual content, and other content made available
+in the Repository, excluding the Marks.
+
+"Marks" means the names, logos, trade names, service marks, and trademarks of
+Stoke Games, Tyr, and any related brands.
+
+"Integrated Project" means any Tyr-related software project, website, service,
+product, or application, including companion sites, build planners, reference
+tools, data-driven utilities, community resources, or similar Tyr-focused
+projects, that uses, incorporates, references, or depends on the Licensed
+Materials in compliance with this License.
+
+"You" means the individual or legal entity exercising rights under this
+License.
+
+"Use" means any act that would otherwise require permission under applicable
+copyright, database, or similar law with respect to the Licensed Materials.
+
+2. Limited License Grant
+
+Subject to your compliance with this License, Stoke Games grants you a limited,
+non-exclusive, non-transferable, non-sublicensable license to:
+
+a. use, reproduce, display, parse, index, analyze, and reference the Licensed
+   Materials solely as reasonably necessary to develop, test, build, deploy,
+   operate, maintain, and distribute an Integrated Project;
+
+b. copy and redistribute exact, complete, unmodified copies of the Licensed
+   Materials, but only as part of, or in direct support of, an Integrated
+   Project, including as a dependency, submodule, mirror, cache, backup,
+   deployment input, build input, or reference input, and only if you keep
+   this License and all copyright and proprietary notices intact;
+
+c. make technical-format copies or technical changes that are strictly
+   necessary for storage, caching, transmission, compression, hosting, backup,
+   display, parsing, indexing, or format compatibility, provided those changes
+   do not materially alter the substantive expressive or informational content
+   of the Licensed Materials; and
+
+d. monetize an Integrated Project through advertising, sponsorships,
+   donations, subscriptions, affiliate links, paid access, or similar
+   project-level revenue models, provided the Licensed Materials are not
+   sold, licensed, or made available on a standalone basis.
+
+For clarity, this License permits monetization of an Integrated Project, but
+does not permit monetization of the Licensed Materials themselves except as
+they are incorporated unchanged into an Integrated Project in compliance with
+this License.
+
+No rights are granted except as expressly stated in this Section 2.
+
+3. Restrictions
+
+Except to the limited extent expressly permitted by Section 2, you may not:
+
+a. modify, adapt, translate, annotate, remix, transform, or create derivative
+   works of the Licensed Materials;
+
+b. extract, repackage, publish, sell, rent, license, sublicense, assign,
+   distribute, or otherwise make the Licensed Materials available on a
+   standalone basis as a substitute for the Repository or as a standalone
+   product, service, or commercial offering, including as a paid downloadable
+   dataset, asset pack, content library, or similar offering whose principal
+   purpose is access to the Licensed Materials themselves;
+
+c. use the Licensed Materials as a generic or game-agnostic standalone dataset,
+   asset pack, content library, or developer resource unrelated to an
+   Integrated Project;
+
+d. remove, obscure, or alter any copyright, attribution, proprietary, or
+   notice markings included with the Licensed Materials;
+
+e. imply that Stoke Games endorses you, your use, or any fork, build, or
+   integrated project; or
+
+f. bypass, disable, or interfere with any access controls, provenance
+   mechanisms, or usage restrictions applied to the Licensed Materials.
+
+4. Third-Party Service Providers
+
+You may permit contractors, hosting providers, CI/CD services, and other
+service providers acting on your behalf to process or store the Licensed
+Materials solely to support your permitted use under this License, provided
+you remain responsible for their compliance with this License.
+
+5. No Other Rights
+
+This License does not grant you any right to sublicense, assign, transfer, or
+otherwise pass through rights in the Licensed Materials except as expressly
+permitted by this License. Any person receiving the Licensed Materials under a
+permitted redistribution receives rights, if any, directly under this License
+and not through a sublicense from you. This License does not imply any rights
+by estoppel, waiver, or otherwise.
+
+6. Ownership and Reservation of Rights
+
+The Licensed Materials are licensed, not sold. Stoke Games and its licensors
+retain all right, title, and interest in and to the Licensed Materials. No
+ownership rights are transferred to you. All rights not expressly granted
+under this License are reserved.
+
+7. No Trademark License
+
+No rights are granted under this License to use the Marks, except only for
+reasonable nominative reference necessary to identify an Integrated Project or
+the source of the Licensed Materials. Any other use of the Marks requires
+separate written permission from Stoke Games.
+
+8. Attribution and Notice Preservation
+
+If you distribute the Licensed Materials as permitted by this License, you
+must include this License file and preserve all copyright, attribution, and
+proprietary notices supplied by Stoke Games.
+
+9. Term and Termination
+
+This License continues until terminated. This License terminates automatically
+if you fail to comply with any term of this License.
+
+Upon termination, you must immediately stop using the Licensed Materials and
+destroy or delete all copies in your possession or control, except to the
+extent retention is required by law or is contained in routine backup systems
+that are not restored except for disaster recovery.
+
+10. No Support or Updates
+
+Stoke Games has no obligation under this License to provide maintenance,
+support, updates, corrections, patches, new versions, or continued access to
+the Repository or any Licensed Materials.
+
+11. Disclaimer of Warranties
+
+THE LICENSED MATERIALS ARE PROVIDED "AS IS" AND "AS AVAILABLE." TO THE
+MAXIMUM EXTENT PERMITTED BY LAW, STOKE GAMES DISCLAIMS ALL WARRANTIES,
+EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING WARRANTIES OF TITLE,
+NON-INFRINGEMENT, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY,
+AND QUIET ENJOYMENT.
+
+12. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, STOKE GAMES WILL NOT BE LIABLE FOR ANY
+INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES,
+OR FOR ANY LOSS OF DATA, PROFITS, GOODWILL, OR BUSINESS INTERRUPTION, ARISING
+OUT OF OR RELATED TO THIS LICENSE OR THE LICENSED MATERIALS, EVEN IF ADVISED
+OF THE POSSIBILITY OF SUCH DAMAGES.
+
+13. Contact
+
+Questions about this License or requests for permissions beyond it should be
+directed to Stoke Games through the official Stoke Games Discord community or
+through our website:
+
+https://www.stoke.games
