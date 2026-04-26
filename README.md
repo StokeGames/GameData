@@ -45,6 +45,7 @@ assets/
 - Do not treat it as a general-purpose public dataset.
 - Do not add site-owned code or unrelated assets here.
 - If the data contract changes, update this README together with the exported layout.
+- Snapshot revisions are intended to be tagged as `CL-<N>` so consumers can pin a specific exported changelist.
 
 ## Rights
 

@@ -1,6 +1,6 @@
 STOKE GAMES DATA AND ASSETS LICENSE
-Version 1.0
-Effective Date: 2026-04-20
+Version 1.1
+Effective Date: 2026-04-26
 
 This License governs the use of the data and asset repository identified as
 GameData (the "Repository"). By accessing, copying, or using the Repository,
@@ -12,7 +12,7 @@ this License.
 
 1. Definitions
 
-"Stoke Games" means Stoke Games and its licensors.
+"Stoke Games" means Stoke Games, Inc. and its licensors.
 
 "Licensed Materials" means the data, database contents, text, metadata,
 images, models, audio, audiovisual content, and other content made available
@@ -93,14 +93,30 @@ e. imply that Stoke Games endorses you, your use, or any fork, build, or
 f. bypass, disable, or interfere with any access controls, provenance
    mechanisms, or usage restrictions applied to the Licensed Materials.
 
-4. Third-Party Service Providers
+4. Integrated Project Conduct
+
+You must not operate, distribute, or knowingly permit any Integrated Project
+that uses the Licensed Materials to:
+
+a. distribute, deliver, or activate malware, worms, Trojan horses, ransomware,
+   spyware, or other malicious code;
+
+b. phish for, harvest, or otherwise obtain by deception the credentials,
+   payment information, or other sensitive information of end users; or
+
+c. surreptitiously track, profile, fingerprint, or collect personal
+   information of end users without their knowledge and consent.
+
+A breach of this Section 4 is a material breach of this License.
+
+5. Third-Party Service Providers
 
 You may permit contractors, hosting providers, CI/CD services, and other
 service providers acting on your behalf to process or store the Licensed
 Materials solely to support your permitted use under this License, provided
 you remain responsible for their compliance with this License.
 
-5. No Other Rights
+6. No Other Rights
 
 This License does not grant you any right to sublicense, assign, transfer, or
 otherwise pass through rights in the Licensed Materials except as expressly
@@ -109,43 +125,72 @@ permitted redistribution receives rights, if any, directly under this License
 and not through a sublicense from you. This License does not imply any rights
 by estoppel, waiver, or otherwise.
 
-6. Ownership and Reservation of Rights
+7. Ownership and Reservation of Rights
 
 The Licensed Materials are licensed, not sold. Stoke Games and its licensors
 retain all right, title, and interest in and to the Licensed Materials. No
 ownership rights are transferred to you. All rights not expressly granted
 under this License are reserved.
 
-7. No Trademark License
+8. Reciprocal Intellectual Property
+
+Stoke Games does not, by reason of your permitted use of the Licensed
+Materials in compliance with this License, assert ownership in your
+Integrated Project itself, and no Integrated Project shall be considered a
+derivative work of the Licensed Materials within the meaning of this License.
+You shall not register, attempt to register, claim, or assert any copyright,
+trademark, database right, or other intellectual property right in the
+Licensed Materials, in the Marks, or in any materials substantially similar
+to or derived from them, anywhere in the world.
+
+9. No Trademark License
 
 No rights are granted under this License to use the Marks, except only for
 reasonable nominative reference necessary to identify an Integrated Project or
 the source of the Licensed Materials. Any other use of the Marks requires
 separate written permission from Stoke Games.
 
-8. Attribution and Notice Preservation
+10. Attribution and Notice Preservation
 
 If you distribute the Licensed Materials as permitted by this License, you
 must include this License file and preserve all copyright, attribution, and
 proprietary notices supplied by Stoke Games.
 
-9. Term and Termination
+11. Term and Termination
 
-This License continues until terminated. This License terminates automatically
-if you fail to comply with any term of this License.
+This License continues until terminated.
 
-Upon termination, you must immediately stop using the Licensed Materials and
-destroy or delete all copies in your possession or control, except to the
-extent retention is required by law or is contained in routine backup systems
-that are not restored except for disaster recovery.
+This License terminates automatically if you fail to comply with any term of
+this License.
 
-10. No Support or Updates
+Stoke Games may also terminate this License with respect to you at any time
+for convenience by providing written notice (including notice by email,
+through the Repository, or through any contact channel you have used to
+communicate with Stoke Games), with such termination effective thirty (30)
+days after notice.
+
+Upon termination, you must immediately:
+
+a. stop using the Licensed Materials;
+
+b. destroy or delete all copies of the Licensed Materials in your possession
+   or control, except to the extent retention is required by law or is
+   contained in routine backup systems that are not restored except for
+   disaster recovery; and
+
+c. cease distributing, publishing, or offering to the public any Integrated
+   Project to the extent it depends on, incorporates, or displays the
+   Licensed Materials.
+
+Sections 6 through 8 and 12 through 16 survive termination.
+
+12. No Support or Updates
 
 Stoke Games has no obligation under this License to provide maintenance,
 support, updates, corrections, patches, new versions, or continued access to
 the Repository or any Licensed Materials.
 
-11. Disclaimer of Warranties
+13. Disclaimer of Warranties
 
 THE LICENSED MATERIALS ARE PROVIDED "AS IS" AND "AS AVAILABLE." TO THE
 MAXIMUM EXTENT PERMITTED BY LAW, STOKE GAMES DISCLAIMS ALL WARRANTIES,
@@ -153,7 +198,7 @@ EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING WARRANTIES OF TITLE,
 NON-INFRINGEMENT, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY,
 AND QUIET ENJOYMENT.
 
-12. Limitation of Liability
+14. Limitation of Liability
 
 TO THE MAXIMUM EXTENT PERMITTED BY LAW, STOKE GAMES WILL NOT BE LIABLE FOR ANY
 INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES,
@@ -161,7 +206,17 @@ OR FOR ANY LOSS OF DATA, PROFITS, GOODWILL, OR BUSINESS INTERRUPTION, ARISING
 OUT OF OR RELATED TO THIS LICENSE OR THE LICENSED MATERIALS, EVEN IF ADVISED
 OF THE POSSIBILITY OF SUCH DAMAGES.
 
-13. Contact
+15. Governing Law and Venue
+
+This License is governed by the laws of the State of California, U.S.A.,
+without regard to its conflict of laws principles. The exclusive venue for
+any dispute, action, suit, or other proceeding arising out of or relating to
+this License or the Licensed Materials shall be the state or federal courts
+located in San Francisco County, California, and you consent to the personal
+jurisdiction of those courts. The United Nations Convention on Contracts for
+the International Sale of Goods does not apply to this License.
+
+16. Contact
 
 Questions about this License or requests for permissions beyond it should be
 directed to Stoke Games through the official Stoke Games Discord community or
