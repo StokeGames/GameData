@@ -1,7 +1,7 @@
 {
   "metadata": {
     "schemaVersion": 1,
-    "generatedAt": "2026-04-18T19:00:55.263642+00:00",
+    "generatedAt": "2026-04-26T12:16:10.779428+00:00",
     "rawSource": "python-export"
   },
   "vehicles": [
@@ -78,7 +78,20 @@
         "previewAmmoSlot": 0,
         "talentTreeId": "blink"
       },
-      "nativeComponents": [],
+      "nativeComponents": [
+        {
+          "componentId": "coreamp",
+          "level": 3
+        },
+        {
+          "componentId": "powerconverter",
+          "level": 6
+        },
+        {
+          "componentId": "shellcharger",
+          "level": 10
+        }
+      ],
       "source": {
         "tankKey": "Gameplay.Vehicle.Blink",
         "vehicleUiKey": "Gameplay.Vehicle.Blink"
@@ -157,7 +170,20 @@
         "previewAmmoSlot": 0,
         "talentTreeId": "canopener"
       },
-      "nativeComponents": [],
+      "nativeComponents": [
+        {
+          "componentId": "quickslot",
+          "level": 3
+        },
+        {
+          "componentId": "duplicator",
+          "level": 6
+        },
+        {
+          "componentId": "sensitivesights",
+          "level": 10
+        }
+      ],
       "source": {
         "tankKey": "Gameplay.Vehicle.CanOpener",
         "vehicleUiKey": "Gameplay.Vehicle.CanOpener"
@@ -236,7 +262,20 @@
         "previewAmmoSlot": 0,
         "talentTreeId": "bush"
       },
-      "nativeComponents": [],
+      "nativeComponents": [
+        {
+          "componentId": "shellstabilizer",
+          "level": 3
+        },
+        {
+          "componentId": "camoweb",
+          "level": 6
+        },
+        {
+          "componentId": "signatureobscurer",
+          "level": 10
+        }
+      ],
       "source": {
         "tankKey": "Gameplay.Vehicle.Bush",
         "vehicleUiKey": "Gameplay.Vehicle.Bush"
@@ -315,7 +354,20 @@
         "previewAmmoSlot": 0,
         "talentTreeId": "sonar"
       },
-      "nativeComponents": [],
+      "nativeComponents": [
+        {
+          "componentId": "relentlessadapter",
+          "level": 3
+        },
+        {
+          "componentId": "bulkheads",
+          "level": 6
+        },
+        {
+          "componentId": "modulesurger",
+          "level": 10
+        }
+      ],
       "source": {
         "tankKey": "Gameplay.Vehicle.Sonar",
         "vehicleUiKey": "Gameplay.Vehicle.Sonar"
@@ -394,7 +446,20 @@
         "previewAmmoSlot": 0,
         "talentTreeId": "deadeye"
       },
-      "nativeComponents": [],
+      "nativeComponents": [
+        {
+          "componentId": "shellstabilizer",
+          "level": 3
+        },
+        {
+          "componentId": "camoweb",
+          "level": 6
+        },
+        {
+          "componentId": "vulnbreaker",
+          "level": 10
+        }
+      ],
       "source": {
         "tankKey": "Gameplay.Vehicle.Deadeye",
         "vehicleUiKey": "Gameplay.Vehicle.Deadeye"
@@ -473,7 +538,20 @@
         "previewAmmoSlot": 0,
         "talentTreeId": "brawler"
       },
-      "nativeComponents": [],
+      "nativeComponents": [
+        {
+          "componentId": "repairmechanism",
+          "level": 3
+        },
+        {
+          "componentId": "powerconverter",
+          "level": 6
+        },
+        {
+          "componentId": "adaptivehardening",
+          "level": 10
+        }
+      ],
       "source": {
         "tankKey": "Gameplay.Vehicle.Brawler",
         "vehicleUiKey": "Gameplay.Vehicle.Brawler"
@@ -552,7 +630,20 @@
         "previewAmmoSlot": 0,
         "talentTreeId": "slow"
       },
-      "nativeComponents": [],
+      "nativeComponents": [
+        {
+          "componentId": "kineticabsorber",
+          "level": 3
+        },
+        {
+          "componentId": "adaptivehardening",
+          "level": 6
+        },
+        {
+          "componentId": "senseoverdrive",
+          "level": 10
+        }
+      ],
       "source": {
         "tankKey": "Gameplay.Vehicle.Slow",
         "vehicleUiKey": "Gameplay.Vehicle.Slow"
@@ -631,7 +722,20 @@
         "previewAmmoSlot": 0,
         "talentTreeId": "vtol"
       },
-      "nativeComponents": [],
+      "nativeComponents": [
+        {
+          "componentId": "coreinjector",
+          "level": 3
+        },
+        {
+          "componentId": "shiftcloak",
+          "level": 6
+        },
+        {
+          "componentId": "momentumimparter",
+          "level": 10
+        }
+      ],
       "source": {
         "tankKey": "Gameplay.Vehicle.Vtol",
         "vehicleUiKey": "Gameplay.Vehicle.Vtol"
@@ -710,7 +814,20 @@
         "previewAmmoSlot": 0,
         "talentTreeId": "drone"
       },
-      "nativeComponents": [],
+      "nativeComponents": [
+        {
+          "componentId": "stablerangefinder",
+          "level": 3
+        },
+        {
+          "componentId": "agitator",
+          "level": 6
+        },
+        {
+          "componentId": "frictioncapacitor",
+          "level": 10
+        }
+      ],
       "source": {
         "tankKey": "Gameplay.Vehicle.Drone",
         "vehicleUiKey": "Gameplay.Vehicle.Drone"
@@ -789,7 +906,20 @@
         "previewAmmoSlot": 0,
         "talentTreeId": "ram"
       },
-      "nativeComponents": [],
+      "nativeComponents": [
+        {
+          "componentId": "reactivemodules",
+          "level": 3
+        },
+        {
+          "componentId": "repairmechanism",
+          "level": 6
+        },
+        {
+          "componentId": "extendedgearing",
+          "level": 10
+        }
+      ],
       "source": {
         "tankKey": "Gameplay.Vehicle.Ram",
         "vehicleUiKey": "Gameplay.Vehicle.Ram"
@@ -868,7 +998,20 @@
         "previewAmmoSlot": 0,
         "talentTreeId": "stealth"
       },
-      "nativeComponents": [],
+      "nativeComponents": [
+        {
+          "componentId": "phasemodule",
+          "level": 3
+        },
+        {
+          "componentId": "energyexpander",
+          "level": 6
+        },
+        {
+          "componentId": "driftsparker",
+          "level": 10
+        }
+      ],
       "source": {
         "tankKey": "Gameplay.Vehicle.Stealth",
         "vehicleUiKey": "Gameplay.Vehicle.Stealth"
@@ -947,7 +1090,20 @@
         "previewAmmoSlot": 0,
         "talentTreeId": "ranger"
       },
-      "nativeComponents": [],
+      "nativeComponents": [
+        {
+          "componentId": "senseoverdrive",
+          "level": 3
+        },
+        {
+          "componentId": "microplating",
+          "level": 6
+        },
+        {
+          "componentId": "quickslot",
+          "level": 10
+        }
+      ],
       "source": {
         "tankKey": "Gameplay.Vehicle.Ranger",
         "vehicleUiKey": "Gameplay.Vehicle.Ranger"
@@ -1026,7 +1182,20 @@
         "previewAmmoSlot": 0,
         "talentTreeId": "wall"
       },
-      "nativeComponents": [],
+      "nativeComponents": [
+        {
+          "componentId": "weaknessanalyzer",
+          "level": 3
+        },
+        {
+          "componentId": "hotchamber",
+          "level": 6
+        },
+        {
+          "componentId": "propagationdrive",
+          "level": 10
+        }
+      ],
       "source": {
         "tankKey": "Gameplay.Vehicle.Wall",
         "vehicleUiKey": "Gameplay.Vehicle.Wall"
@@ -1105,7 +1274,20 @@
         "previewAmmoSlot": 0,
         "talentTreeId": "recall"
       },
-      "nativeComponents": [],
+      "nativeComponents": [
+        {
+          "componentId": "vulnbreaker",
+          "level": 3
+        },
+        {
+          "componentId": "microplating",
+          "level": 6
+        },
+        {
+          "componentId": "fabricator",
+          "level": 10
+        }
+      ],
       "source": {
         "tankKey": "Gameplay.Vehicle.Recall",
         "vehicleUiKey": "Gameplay.Vehicle.Recall"
@@ -1184,7 +1366,20 @@
         "previewAmmoSlot": 0,
         "talentTreeId": "sentinel"
       },
-      "nativeComponents": [],
+      "nativeComponents": [
+        {
+          "componentId": "reactivemodules",
+          "level": 3
+        },
+        {
+          "componentId": "shellcharger",
+          "level": 6
+        },
+        {
+          "componentId": "hotchamber",
+          "level": 10
+        }
+      ],
       "source": {
         "tankKey": "Gameplay.Vehicle.Sentinel",
         "vehicleUiKey": "Gameplay.Vehicle.Sentinel"
@@ -1263,7 +1458,20 @@
         "previewAmmoSlot": 0,
         "talentTreeId": "healer"
       },
-      "nativeComponents": [],
+      "nativeComponents": [
+        {
+          "componentId": "synchronizer",
+          "level": 3
+        },
+        {
+          "componentId": "catalyticreservoir",
+          "level": 6
+        },
+        {
+          "componentId": "corebooster",
+          "level": 10
+        }
+      ],
       "source": {
         "tankKey": "Gameplay.Vehicle.Healer",
         "vehicleUiKey": "Gameplay.Vehicle.Healer"
@@ -1342,7 +1550,20 @@
         "previewAmmoSlot": 0,
         "talentTreeId": "vanguard"
       },
-      "nativeComponents": [],
+      "nativeComponents": [
+        {
+          "componentId": "vulnbreaker",
+          "level": 3
+        },
+        {
+          "componentId": "stablerangefinder",
+          "level": 6
+        },
+        {
+          "componentId": "energyexpander",
+          "level": 10
+        }
+      ],
       "source": {
         "tankKey": "Gameplay.Vehicle.Vanguard",
         "vehicleUiKey": "Gameplay.Vehicle.Vanguard"
@@ -1691,7 +1912,16 @@
       "effectPaths": [
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_AdaptiveHardeningPeriodicApplier.GE_Components_AdaptiveHardeningPeriodicApplier_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "brawler",
+          "level": 10
+        },
+        {
+          "vehicleId": "slow",
+          "level": 6
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.AdaptiveHardening"
       }
@@ -1723,7 +1953,16 @@
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_RepairTimeMultiplier.GE_Components_RepairTimeMultiplier_C",
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_AdvancedRepairGearEnergyGain.GE_Components_AdvancedRepairGearEnergyGain_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "brawler",
+          "level": 3
+        },
+        {
+          "vehicleId": "ram",
+          "level": 6
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.RepairMechanism"
       }
@@ -1752,7 +1991,12 @@
       "effectPaths": [
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_MaxHealthPercent.GE_Components_MaxHealthPercent_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "sonar",
+          "level": 6
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.Bulkheads"
       }
@@ -1790,7 +2034,12 @@
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_CalibrationAgitatorActiveBuff.GE_Components_CalibrationAgitatorActiveBuff_C",
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_CalibrationAgitatorActiveBuff.GE_Components_CalibrationAgitatorActiveBuff_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "drone",
+          "level": 6
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.Agitator"
       }
@@ -1819,7 +2068,16 @@
       "effectPaths": [
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_CamouflagePercent.GE_Components_CamouflagePercent_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "bush",
+          "level": 6
+        },
+        {
+          "vehicleId": "deadeye",
+          "level": 6
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.CamoWeb"
       }
@@ -1848,7 +2106,12 @@
       "effectPaths": [
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_CatalyticReservoirInitial.GE_Components_CatalyticReservoirInitial_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "healer",
+          "level": 6
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.CatalyticReservoir"
       }
@@ -1886,7 +2149,12 @@
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_CoreAmpBuffRemover.GE_Components_CoreAmpBuffRemover_C",
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_CoreAmpBuffRemover.GE_Components_CoreAmpBuffRemover_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "blink",
+          "level": 3
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.CoreAmp"
       }
@@ -1915,7 +2183,12 @@
       "effectPaths": [
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_BonusEnergyGainFlat.GE_Components_BonusEnergyGainFlat_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "healer",
+          "level": 10
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.CoreBooster"
       }
@@ -1944,7 +2217,12 @@
       "effectPaths": [
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_EnergyCostPercent.GE_Components_EnergyCostPercent_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "vtol",
+          "level": 3
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.CoreInjector"
       }
@@ -1976,7 +2254,12 @@
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_HullTraverse.GE_Components_HullTraverse_C",
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_DriftSparkerTracker.GE_Components_DriftSparkerTracker_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "stealth",
+          "level": 10
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.DriftSparker"
       }
@@ -2008,7 +2291,12 @@
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ShellGainPercent.GE_Components_ShellGainPercent_C",
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_DuplicatorShellDamage.GE_Components_DuplicatorShellDamage_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "canopener",
+          "level": 6
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.Duplicator"
       }
@@ -2037,7 +2325,16 @@
       "effectPaths": [
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_MaxAndStartingEnergyMultiply.GE_Components_MaxAndStartingEnergyMultiply_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "stealth",
+          "level": 6
+        },
+        {
+          "vehicleId": "vanguard",
+          "level": 10
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.EnergyExpander"
       }
@@ -2066,7 +2363,12 @@
       "effectPaths": [
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ExtendedGearing.GE_Components_ExtendedGearing_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "ram",
+          "level": 10
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.ExtendedGearing"
       }
@@ -2095,7 +2397,12 @@
       "effectPaths": [
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_Fabricator.GE_Components_Fabricator_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "recall",
+          "level": 10
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.Fabricator"
       }
@@ -2127,7 +2434,12 @@
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_FrictionCapacitorAirborneTracker.GE_Components_FrictionCapacitorAirborneTracker_C",
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_MaxSpeedFlat.GE_Components_MaxSpeedFlat_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "drone",
+          "level": 10
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.FrictionCapacitor"
       }
@@ -2156,7 +2468,16 @@
       "effectPaths": [
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ShellDamagePercentTimed_2secs.GE_Components_ShellDamagePercentTimed_2secs_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "sentinel",
+          "level": 10
+        },
+        {
+          "vehicleId": "wall",
+          "level": 6
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.HotChamber"
       }
@@ -2185,7 +2506,12 @@
       "effectPaths": [
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ActiveReloadTime.GE_Components_ActiveReloadTime_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "slow",
+          "level": 3
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.KineticAbsorber"
       }
@@ -2214,7 +2540,16 @@
       "effectPaths": [
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_DamageReductionFlat.GE_Components_DamageReductionFlat_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "ranger",
+          "level": 6
+        },
+        {
+          "vehicleId": "recall",
+          "level": 6
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.MicroPlating"
       }
@@ -2246,7 +2581,12 @@
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ModuleSurger.GE_Components_ModuleSurger_C",
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_MaxHealthFlat.GE_Components_MaxHealthFlat_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "sonar",
+          "level": 10
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.ModuleSurger"
       }
@@ -2275,7 +2615,12 @@
       "effectPaths": [
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ShellDamageFlat.GE_Components_ShellDamageFlat_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "vtol",
+          "level": 10
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.MomentumImparter"
       }
@@ -2305,7 +2650,12 @@
       "effectPaths": [
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_PhaseGear.GE_Components_PhaseGear_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "stealth",
+          "level": 3
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.PhaseModule"
       }
@@ -2338,7 +2688,16 @@
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_HealForAbilityCost.GE_Components_HealForAbilityCost_C",
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_PowerConverterAbilityCooldownReduction.GE_Components_PowerConverterAbilityCooldownReduction_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "blink",
+          "level": 6
+        },
+        {
+          "vehicleId": "brawler",
+          "level": 6
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.PowerConverter"
       }
@@ -2369,7 +2728,12 @@
       "effectPaths": [
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_PropagationDrive.GE_Components_PropagationDrive_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "wall",
+          "level": 10
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.PropagationDrive"
       }
@@ -2404,7 +2768,16 @@
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ReloadTimePercentTimed.GE_Components_ReloadTimePercentTimed_C",
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ReloadTimePercentTimed.GE_Components_ReloadTimePercentTimed_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "canopener",
+          "level": 3
+        },
+        {
+          "vehicleId": "ranger",
+          "level": 10
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.QuickSlot"
       }
@@ -2448,7 +2821,16 @@
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ReactiveModulesBuffRemover.GE_Components_ReactiveModulesBuffRemover_C",
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ReactiveModulesBuffRemover.GE_Components_ReactiveModulesBuffRemover_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "ram",
+          "level": 3
+        },
+        {
+          "vehicleId": "sentinel",
+          "level": 3
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.ReactiveModules"
       }
@@ -2477,7 +2859,12 @@
       "effectPaths": [
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_RelentlessAdapterMaxHP.GE_Components_RelentlessAdapterMaxHP_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "sonar",
+          "level": 3
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.RelentlessAdapter"
       }
@@ -2506,7 +2893,16 @@
       "effectPaths": [
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_SenseOverdrive.GE_Components_SenseOverdrive_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "ranger",
+          "level": 3
+        },
+        {
+          "vehicleId": "slow",
+          "level": 10
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.SenseOverdrive"
       }
@@ -2536,7 +2932,12 @@
       "effectPaths": [
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_SensitiveSights.GE_Components_SensitiveSights_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "canopener",
+          "level": 10
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.SensitiveSights"
       }
@@ -2571,7 +2972,16 @@
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ShellChargerBuffRemover.GE_Components_ShellChargerBuffRemover_C",
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ShellChargerBuffRemover.GE_Components_ShellChargerBuffRemover_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "blink",
+          "level": 10
+        },
+        {
+          "vehicleId": "sentinel",
+          "level": 6
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.ShellCharger"
       }
@@ -2600,7 +3010,16 @@
       "effectPaths": [
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ShellDamageFlat.GE_Components_ShellDamageFlat_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "bush",
+          "level": 3
+        },
+        {
+          "vehicleId": "deadeye",
+          "level": 3
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.ShellStabilizer"
       }
@@ -2629,7 +3048,12 @@
       "effectPaths": [
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_CamouflageFlat.GE_Components_CamouflageFlat_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "vtol",
+          "level": 6
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.ShiftCloak"
       }
@@ -2661,7 +3085,12 @@
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_TimeSpotted.GE_Components_TimeSpotted_C",
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ActiveReloadTime.GE_Components_ActiveReloadTime_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "bush",
+          "level": 10
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.SignatureObscurer"
       }
@@ -2693,7 +3122,16 @@
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_StableRangefinder_PhaseOne.GE_Components_StableRangefinder_PhaseOne_C",
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_StableRangefinder_PhaseOne.GE_Components_StableRangefinder_PhaseOne_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "drone",
+          "level": 3
+        },
+        {
+          "vehicleId": "vanguard",
+          "level": 6
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.StableRangefinder"
       }
@@ -2726,7 +3164,12 @@
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_SynchronizerBuff.GE_Components_SynchronizerBuff_C",
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_SynchronizerStartingEnergy.GE_Components_SynchronizerStartingEnergy_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "healer",
+          "level": 3
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.Synchronizer"
       }
@@ -2758,7 +3201,20 @@
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ModuleDamagePercent.GE_Components_ModuleDamagePercent_C",
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_VulnBreakerRampingBuff.GE_Components_VulnBreakerRampingBuff_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "deadeye",
+          "level": 10
+        },
+        {
+          "vehicleId": "recall",
+          "level": 3
+        },
+        {
+          "vehicleId": "vanguard",
+          "level": 3
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.VulnBreaker"
       }
@@ -2787,7 +3243,12 @@
       "effectPaths": [
         "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ActiveReloadTime.GE_Components_ActiveReloadTime_C"
       ],
-      "nativeVehicles": [],
+      "nativeVehicles": [
+        {
+          "vehicleId": "wall",
+          "level": 3
+        }
+      ],
       "source": {
         "key": "Gameplay.Components.WeaknessAnalyzer"
       }
