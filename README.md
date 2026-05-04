@@ -26,9 +26,11 @@ generated/
 assets/
   images/
     vehicles/
+    abilities/
     ammo/
     components/
     talents/
+    icons/
     maps/
       lobby/
       minimap/
