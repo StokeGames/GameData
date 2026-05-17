@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T13:24:20.583324+00:00",
+  "generatedAt": "2026-05-17T16:36:51.684598+00:00",
   "vehicleArmorIds": [
     "blink",
     "brawler",
@@ -18,6 +18,10 @@
     "vanguard",
     "vtol",
     "wall"
+  ],
+  "vehicleDeployedAnimationIds": [
+    "canopener",
+    "vtol"
   ],
   "mapImageIds": [
     "divide",
