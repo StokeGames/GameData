@@ -1,7 +1,7 @@
 {
   "metadata": {
     "schemaVersion": 1,
-    "generatedAt": "2026-05-04T13:24:20.521901+00:00",
+    "generatedAt": "2026-05-29T14:32:40.152292+00:00",
     "rawSource": "python-export"
   },
   "vehicles": [
@@ -52,6 +52,7 @@
         "AltAmmoCountThree": 0,
         "ProxyVisionRadius": 35,
         "CamoPercentage": 32,
+        "DifficultyRating": 3,
         "FirepowerRating": 5,
         "DurabilityRating": 3,
         "AbilityRating": 9,
@@ -149,6 +150,7 @@
         "AltAmmoCountThree": 0,
         "ProxyVisionRadius": 35,
         "CamoPercentage": 9,
+        "DifficultyRating": 2,
         "FirepowerRating": 9,
         "DurabilityRating": 4,
         "AbilityRating": 2,
@@ -246,6 +248,7 @@
         "AltAmmoCountThree": 0,
         "ProxyVisionRadius": 35,
         "CamoPercentage": 26,
+        "DifficultyRating": 1,
         "FirepowerRating": 10,
         "DurabilityRating": 3,
         "AbilityRating": 4,
@@ -319,17 +322,17 @@
         "AbilityCooldown": 16,
         "ShellDamage": 360,
         "ShellPenetration": 80,
-        "MaxSpeed": 21,
+        "MaxSpeed": 23,
         "MaxReverseSpeed": 10,
         "MaxStrafingSpeed": 0,
-        "AccelerationTime": 1.899999976158142,
+        "AccelerationTime": 2.5,
         "HullTraverseSpeed": 15,
         "TurretTraverseSpeed": 17,
         "GunTraverseSpeed": 30,
         "GunMaxDepression": -10,
         "GunMaxElevation": 30,
         "GunMaxHoverTilt": 0,
-        "Mass": 70000,
+        "Mass": 100000,
         "ShellVelocity": 780,
         "BaseDispersionPenalty": 0.2800000011920929,
         "MovementDispersionPenalty": 1.2000000476837158,
@@ -342,7 +345,8 @@
         "AltAmmoCountTwo": 0,
         "AltAmmoCountThree": 0,
         "ProxyVisionRadius": 35,
-        "CamoPercentage": 2,
+        "CamoPercentage": 0,
+        "DifficultyRating": 2,
         "FirepowerRating": 6,
         "DurabilityRating": 10,
         "AbilityRating": 1,
@@ -440,6 +444,7 @@
         "AltAmmoCountThree": 0,
         "ProxyVisionRadius": 35,
         "CamoPercentage": 25,
+        "DifficultyRating": 3,
         "FirepowerRating": 6,
         "DurabilityRating": 6,
         "AbilityRating": 5,
@@ -457,7 +462,7 @@
       },
       "ability": {
         "name": "Elevate",
-        "description": "Detach and elevate your turret into the air.",
+        "description": "Detach and elevate your turret into the air. Lasts for 17s, or until the vehicle reloads.",
         "icon": "/TyrVehicleDeadeye/UI/T_UI_AbilityIcons_Deadeye.T_UI_AbilityIcons_Deadeye"
       },
       "loadout": {
@@ -537,6 +542,7 @@
         "AltAmmoCountThree": 0,
         "ProxyVisionRadius": 35,
         "CamoPercentage": 7,
+        "DifficultyRating": 2,
         "FirepowerRating": 8,
         "DurabilityRating": 7,
         "AbilityRating": 4,
@@ -634,6 +640,7 @@
         "AltAmmoCountThree": 0,
         "ProxyVisionRadius": 35,
         "CamoPercentage": 5,
+        "DifficultyRating": 4,
         "FirepowerRating": 5,
         "DurabilityRating": 8,
         "AbilityRating": 3,
@@ -731,6 +738,7 @@
         "AltAmmoCountThree": 0,
         "ProxyVisionRadius": 35,
         "CamoPercentage": 42,
+        "DifficultyRating": 5,
         "FirepowerRating": 3,
         "DurabilityRating": 1,
         "AbilityRating": 8,
@@ -828,6 +836,7 @@
         "AltAmmoCountThree": 0,
         "ProxyVisionRadius": 35,
         "CamoPercentage": 39,
+        "DifficultyRating": 3,
         "FirepowerRating": 4,
         "DurabilityRating": 3,
         "AbilityRating": 7,
@@ -925,6 +934,7 @@
         "AltAmmoCountThree": 0,
         "ProxyVisionRadius": 35,
         "CamoPercentage": 6,
+        "DifficultyRating": 1,
         "FirepowerRating": 8,
         "DurabilityRating": 7,
         "AbilityRating": 4,
@@ -1022,6 +1032,7 @@
         "AltAmmoCountThree": 0,
         "ProxyVisionRadius": 35,
         "CamoPercentage": 37,
+        "DifficultyRating": 4,
         "FirepowerRating": 6,
         "DurabilityRating": 1,
         "AbilityRating": 10,
@@ -1119,6 +1130,7 @@
         "AltAmmoCountThree": 0,
         "ProxyVisionRadius": 35,
         "CamoPercentage": 23,
+        "DifficultyRating": 2,
         "FirepowerRating": 6,
         "DurabilityRating": 6,
         "AbilityRating": 5,
@@ -1216,6 +1228,7 @@
         "AltAmmoCountThree": 0,
         "ProxyVisionRadius": 35,
         "CamoPercentage": 21,
+        "DifficultyRating": 2,
         "FirepowerRating": 6,
         "DurabilityRating": 6,
         "AbilityRating": 4,
@@ -1313,6 +1326,7 @@
         "AltAmmoCountThree": 0,
         "ProxyVisionRadius": 35,
         "CamoPercentage": 21,
+        "DifficultyRating": 5,
         "FirepowerRating": 9,
         "DurabilityRating": 5,
         "AbilityRating": 5,
@@ -1373,7 +1387,7 @@
       "isWorkInProgress": true,
       "selectable": true,
       "stats": {
-        "MaxHealth": 1800,
+        "MaxHealth": 1650,
         "MaxAbilityResource": 100,
         "VisionRadius": 400,
         "DetectionRadius": 90,
@@ -1410,6 +1424,7 @@
         "AltAmmoCountThree": 0,
         "ProxyVisionRadius": 35,
         "CamoPercentage": 4,
+        "DifficultyRating": 3,
         "FirepowerRating": 7,
         "DurabilityRating": 7,
         "AbilityRating": 5,
@@ -1507,6 +1522,7 @@
         "AltAmmoCountThree": 0,
         "ProxyVisionRadius": 35,
         "CamoPercentage": 24,
+        "DifficultyRating": 1,
         "FirepowerRating": 4,
         "DurabilityRating": 5,
         "AbilityRating": 7,
@@ -1604,6 +1620,7 @@
         "AltAmmoCountThree": 0,
         "ProxyVisionRadius": 35,
         "CamoPercentage": 42,
+        "DifficultyRating": 4,
         "FirepowerRating": 3,
         "DurabilityRating": 1,
         "AbilityRating": 8,
@@ -2224,7 +2241,7 @@
       "categoryId": "ability",
       "category": "Ability",
       "pointValues": [
-        10
+        8
       ],
       "tagIds": [
         "Gameplay.Components.Categories.Ability"
@@ -2696,7 +2713,7 @@
       "categoryId": "firepower",
       "category": "Firepower",
       "pointValues": [
-        35
+        30
       ],
       "tagIds": [
         "Gameplay.Components.Categories.Firepower"
@@ -2993,13 +3010,13 @@
       "name": "SENSITIVE SIGHTS",
       "description": "Increases Aim Speed and reduces Reload Time by value while you are unspotted",
       "icon": "/Game/UI/_Shared/Textures/Icon_Components/Temp/T_UI_Components_SensitiveSights.T_UI_Components_SensitiveSights",
-      "categoryId": "mobility",
-      "category": "Mobility",
+      "categoryId": "firepower",
+      "category": "Firepower",
       "pointValues": [
         1.149999976158142
       ],
       "tagIds": [
-        "Gameplay.Components.Categories.Mobility"
+        "Gameplay.Components.Categories.Firepower"
       ],
       "eventTags": [
         "Gameplay.Event.WhileUnSpotted"
@@ -3220,7 +3237,7 @@
       "categoryId": "ability",
       "category": "Ability",
       "pointValues": [
-        1.75
+        1.5
       ],
       "tagIds": [
         "Gameplay.Components.Categories.Ability"
@@ -4448,7 +4465,7 @@
         0.9679999947547913,
         0.9359999895095825,
         0.9039999842643738,
-        0.8240000009536743,
+        0.871999979019165,
         0.8399999737739563
       ],
       "eventTags": [
@@ -4907,7 +4924,7 @@
       "type": "Custom",
       "maxPoints": 1,
       "pointValues": [
-        1.350000023841858
+        1.2000000476837158
       ],
       "eventTags": [],
       "effectIds": [],
@@ -6244,7 +6261,7 @@
       "key": "Gameplay.TalentTree.Sentinel.Talent027",
       "slug": "sentinel-talent027-lingering-mist",
       "name": "Lingering Mist",
-      "description": "Allies that touch the smoke wall have value added to their camo rating for 10 seconds, or until they fire.",
+      "description": "The Smoke Wall adds value% Camouflage to allies that touch it. The effect lasts 10 seconds, or until they fire.",
       "supplementalDescription": "",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_SmokeWallBlindingKeystone.T_UI_Talents_SmokeWallBlindingKeystone",
       "type": "Event",
@@ -16847,7 +16864,14 @@
       "path": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_CatalyticReservoirInitial.GE_Components_CatalyticReservoirInitial_C",
       "stackLimit": 1,
       "tags": [],
-      "modifiers": []
+      "modifiers": [
+        {
+          "attribute": "CurrentAbilityResource",
+          "op": "AddBase",
+          "magnitude": "MagnitudeCalculationType=CustomCalculationClass | ScalableFloatMagnitude=(Curve=(),RegistryType=\"None\") | AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()) | CustomMagnitude=(CalculationClassMagnitude=\"/Script/Engine.BlueprintGeneratedClass'/Game/Blueprints/Abilities/Effects/BP_CatalyticReservoirEnergyCalculation.BP_CatalyticReservoirEnergyCalculation_C'\",Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()) | SetByCallerMagnitude=(DataTag=())",
+          "magnitudeType": "CustomCalculationClass"
+        }
+      ]
     },
     {
       "id": "ge-components-coreampbuff-ge-components-coreampbuff",
@@ -18064,6 +18088,18 @@
         "key": "Map_Divide",
         "minimapTexture": "/Game/UI/_Shared/Textures/Minimap/T_Minimap_Divide.T_Minimap_Divide",
         "lobbyTexture": "/Game/UI/Loading/Textures/T_UI_Splashart_Map_Divide.T_UI_Splashart_Map_Divide"
+      }
+    },
+    {
+      "id": "expanse",
+      "slug": "expanse",
+      "name": "Expanse",
+      "displayName": "Prototype: Expanse",
+      "status": "prototype",
+      "source": {
+        "key": "Map_Expanse",
+        "minimapTexture": "/Game/UI/_Shared/Textures/Minimap/T_Minimap_Expanse.T_Minimap_Expanse",
+        "lobbyTexture": "/Game/UI/Loading/Textures/T_UI_Splashart_Map_Expanse.T_UI_Splashart_Map_Expanse"
       }
     },
     {
