@@ -1843,7 +1843,9 @@
         "reload": 1.0,
         "dispersion": 1.0,
         "detection": 1.0,
-        "velocity": 1.5
+        "velocity": 1.5,
+        "maxSpeed": 1.1,
+        "reverseSpeed": 1.1
       },
       "source": {
         "key": "Gameplay.Ammunition.Type.Mobility"
@@ -1997,7 +1999,10 @@
         "reload": 1.0,
         "dispersion": 0.8999999761581421,
         "detection": 1.0,
-        "velocity": 1.0
+        "velocity": 1.0,
+        "maxSpeed": 0.65,
+        "reverseSpeed": 0.65,
+        "strafeSpeed": 0.65
       },
       "source": {
         "key": "Gameplay.Ammunition.Type.Unstable"
