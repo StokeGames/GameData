@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T14:32:40.283099+00:00",
+  "generatedAt": "2026-06-27T13:17:14.237252+00:00",
   "vehicleArmorIds": [
     "blink",
     "brawler",
@@ -25,6 +25,7 @@
   ],
   "mapImageIds": [
     "divide",
+    "dunes",
     "expanse",
     "fields",
     "ikarus-only",
