@@ -1,9 +1,9 @@
 {
   "metadata": {
     "schemaVersion": 1,
-    "generatedAt": "2026-07-31T18:48:47.220867+00:00",
+    "generatedAt": "2026-08-26T16:17:50.335500+00:00",
     "rawSource": "python-export",
-    "sourceChangelist": 32942,
+    "sourceChangelist": 34479,
     "sourceRevisionPolicy": "client-stream-max-have",
     "exporter": {
       "revision": 3,
@@ -20,6 +20,7 @@
       "classLabel": "Light",
       "isWorkInProgress": false,
       "selectable": true,
+      "weightKg": 18000,
       "stats": {
         "MaxHealth": 1000,
         "MaxAbilityResource": 100,
@@ -71,7 +72,7 @@
         "CaptureZoneShellsGainedMultiplier": 1,
         "StartingSecondaryShellsMultiplier": 1,
         "StartingTertiaryShellsMultiplier": 1,
-        "ShellSwapTime": 4,
+        "ShellSwapTime": 2.5,
         "PreciseDispersionTime": 5
       },
       "ability": {
@@ -118,6 +119,7 @@
       "classLabel": "Medium",
       "isWorkInProgress": false,
       "selectable": true,
+      "weightKg": 30000,
       "stats": {
         "MaxHealth": 1150,
         "MaxAbilityResource": 100,
@@ -216,6 +218,7 @@
       "classLabel": "Medium",
       "isWorkInProgress": false,
       "selectable": true,
+      "weightKg": 19500,
       "stats": {
         "MaxHealth": 1000,
         "MaxAbilityResource": 100,
@@ -314,6 +317,7 @@
       "classLabel": "Heavy",
       "isWorkInProgress": false,
       "selectable": true,
+      "weightKg": 100000,
       "stats": {
         "MaxHealth": 2050,
         "MaxAbilityResource": 100,
@@ -412,6 +416,7 @@
       "classLabel": "Medium",
       "isWorkInProgress": true,
       "selectable": true,
+      "weightKg": 21500,
       "stats": {
         "MaxHealth": 1200,
         "MaxAbilityResource": 100,
@@ -450,7 +455,7 @@
         "AltAmmoCountThree": 0,
         "ProxyVisionRadius": 35,
         "CamoPercentage": 25,
-        "DifficultyRating": 3,
+        "DifficultyRating": 4,
         "FirepowerRating": 6,
         "DurabilityRating": 6,
         "AbilityRating": 5,
@@ -510,6 +515,7 @@
       "classLabel": "Heavy",
       "isWorkInProgress": false,
       "selectable": true,
+      "weightKg": 46000,
       "stats": {
         "MaxHealth": 1600,
         "MaxAbilityResource": 100,
@@ -608,6 +614,7 @@
       "classLabel": "Light",
       "isWorkInProgress": true,
       "selectable": true,
+      "weightKg": 14750,
       "stats": {
         "MaxHealth": 910,
         "MaxAbilityResource": 100,
@@ -664,7 +671,7 @@
       },
       "ability": {
         "name": "Glom Missile",
-        "description": "Launch a laser guided missile that gloms onto the first surface hit. Glommed missiles can be shot to detonate them for 150 damage and will detonate any other glommed missiles in the area.",
+        "description": "Launch a laser guided missile that gloms onto the first surface hit. Glommed missiles can be shot or glommed with another missile to detonate them for 150 damage. Detonations will chain to any other glommed missiles in the area.",
         "icon": "/Game/UI/HUD/Textures/T_UI_HUD_KillConfirm.T_UI_HUD_KillConfirm"
       },
       "loadout": {
@@ -706,6 +713,7 @@
       "classLabel": "Heavy",
       "isWorkInProgress": false,
       "selectable": true,
+      "weightKg": 55000,
       "stats": {
         "MaxHealth": 1750,
         "MaxAbilityResource": 100,
@@ -804,16 +812,17 @@
       "classLabel": "Light",
       "isWorkInProgress": false,
       "selectable": true,
+      "weightKg": 17000,
       "stats": {
         "MaxHealth": 890,
         "MaxAbilityResource": 100,
         "VisionRadius": 400,
         "DetectionRadius": 25,
-        "ReloadTime": 7,
+        "ReloadTime": 8,
         "ClipSize": 4,
         "IntraClipReloadTime": 0.15000000596046448,
         "AbilityWindUpTime": 0,
-        "AbilityWindDownTime": 3,
+        "AbilityWindDownTime": 2,
         "AbilityCost": 25,
         "AbilityCooldown": 20,
         "ShellDamage": 85,
@@ -860,7 +869,7 @@
       },
       "ability": {
         "name": "VTOL",
-        "description": "Transform into a jet to propel into the air for a short duration. The jet can glide after the propulsion until it lands on the ground again. (Let go of the throttle key on takeoff, the jet will point towards your cursor as it flies)",
+        "description": "Transform into a jet to propel into the air for a short duration. The jet can glide after the propulsion until it lands on the ground again. You lose all camouflage while in jet form but can drop spotting quickly on landing.",
         "icon": "/TyrVehicleVtol/UI/T_UI_AbilityIcons_VTOL.T_UI_AbilityIcons_VTOL"
       },
       "loadout": {
@@ -902,6 +911,7 @@
       "classLabel": "Light",
       "isWorkInProgress": false,
       "selectable": true,
+      "weightKg": 18000,
       "stats": {
         "MaxHealth": 900,
         "MaxAbilityResource": 100,
@@ -1000,6 +1010,7 @@
       "classLabel": "Heavy",
       "isWorkInProgress": false,
       "selectable": true,
+      "weightKg": 45000,
       "stats": {
         "MaxHealth": 1500,
         "MaxAbilityResource": 100,
@@ -1098,6 +1109,7 @@
       "classLabel": "Light",
       "isWorkInProgress": false,
       "selectable": true,
+      "weightKg": 11000,
       "stats": {
         "MaxHealth": 825,
         "MaxAbilityResource": 100,
@@ -1194,8 +1206,9 @@
       "name": "Ranger",
       "classId": "medium",
       "classLabel": "Medium",
-      "isWorkInProgress": true,
+      "isWorkInProgress": false,
       "selectable": true,
+      "weightKg": 26000,
       "stats": {
         "MaxHealth": 1375,
         "MaxAbilityResource": 100,
@@ -1268,15 +1281,15 @@
       },
       "nativeComponents": [
         {
-          "componentId": "senseoverdrive",
+          "componentId": "redirectorgear",
           "level": 3
         },
         {
-          "componentId": "microplating",
+          "componentId": "overflowshunt",
           "level": 6
         },
         {
-          "componentId": "quickslot",
+          "componentId": "cascadegate",
           "level": 10
         }
       ],
@@ -1294,6 +1307,7 @@
       "classLabel": "Medium",
       "isWorkInProgress": false,
       "selectable": true,
+      "weightKg": 27000,
       "stats": {
         "MaxHealth": 1425,
         "MaxAbilityResource": 100,
@@ -1392,6 +1406,7 @@
       "classLabel": "Light",
       "isWorkInProgress": true,
       "selectable": true,
+      "weightKg": 17500,
       "stats": {
         "MaxHealth": 850,
         "MaxAbilityResource": 100,
@@ -1490,6 +1505,7 @@
       "classLabel": "Medium",
       "isWorkInProgress": false,
       "selectable": true,
+      "weightKg": 25000,
       "stats": {
         "MaxHealth": 1275,
         "MaxAbilityResource": 100,
@@ -1504,14 +1520,14 @@
         "AbilityCooldown": 6,
         "ShellDamage": 125,
         "ShellPenetration": 60,
-        "MaxSpeed": 44,
-        "MaxReverseSpeed": 20,
+        "MaxSpeed": 46,
+        "MaxReverseSpeed": 28,
         "MaxStrafingSpeed": 0,
         "AccelerationTime": 4.5,
-        "HullTraverseSpeed": 41.720001220703125,
+        "HullTraverseSpeed": 48,
         "TurretTraverseSpeed": 49,
         "GunTraverseSpeed": 30,
-        "GunMaxDepression": -6,
+        "GunMaxDepression": -6.5,
         "GunMaxElevation": 35,
         "GunMaxHoverTilt": 0,
         "Mass": 25000,
@@ -1588,6 +1604,7 @@
       "classLabel": "Heavy",
       "isWorkInProgress": true,
       "selectable": true,
+      "weightKg": 46000,
       "stats": {
         "MaxHealth": 1650,
         "MaxAbilityResource": 100,
@@ -1686,6 +1703,7 @@
       "classLabel": "Medium",
       "isWorkInProgress": false,
       "selectable": true,
+      "weightKg": 25000,
       "stats": {
         "MaxHealth": 1200,
         "MaxAbilityResource": 100,
@@ -1778,55 +1796,11 @@
   ],
   "ammo": [
     {
-      "id": "armorpiercing",
-      "key": "Gameplay.Ammunition.Type.ArmorPiercing",
-      "slug": "armorpiercing",
-      "name": "Armorpiercing",
-      "displayName": "ARMOR PIERCING",
-      "description": "Has increased armor penetration.",
-      "icon": "/Game/UI/_Shared/Textures/Icon_Ammo/T_UI_Icon_Ammo_ArmorPen.T_UI_Icon_Ammo_ArmorPen",
-      "selectable": false,
-      "canLoadSecondary": false,
-      "modifiers": {
-        "damage": 1.0,
-        "penetration": 1.350000023841858,
-        "reload": 1.0,
-        "dispersion": 1.0,
-        "detection": 1.0,
-        "velocity": 1.0
-      },
-      "source": {
-        "key": "Gameplay.Ammunition.Type.ArmorPiercing"
-      }
-    },
-    {
-      "id": "crippling",
-      "key": "Gameplay.Ammunition.Type.Crippling",
-      "slug": "crippling",
-      "name": "Crippling",
-      "displayName": "CRIPPLING",
-      "description": "[IMPLEMENTATION NOT RELIABLE] Increases the target's repair time by 50% when it breaks a module",
-      "icon": "/Game/UI/_Shared/Textures/Icon_Ammo/T_UI_Icon_Ammo_Heal.T_UI_Icon_Ammo_Heal",
-      "selectable": false,
-      "canLoadSecondary": true,
-      "modifiers": {
-        "damage": 0.6000000238418579,
-        "penetration": 1.0,
-        "reload": 1.0,
-        "dispersion": 1.0,
-        "detection": 1.0,
-        "velocity": 1.0
-      },
-      "source": {
-        "key": "Gameplay.Ammunition.Type.Crippling"
-      }
-    },
-    {
       "id": "abilityresource",
       "key": "Gameplay.Ammunition.Type.AbilityResource",
       "slug": "abilityresource",
       "name": "Abilityresource",
-      "displayName": "ENERGY",
+      "displayName": "Energy",
       "description": "Grants 7 extra energy on successful penetrations.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Ammo/T_UI_Icon_Ammo_AbilityResource.T_UI_Icon_Ammo_AbilityResource",
       "selectable": true,
@@ -1848,7 +1822,7 @@
       "key": "Gameplay.Ammunition.Type.Gargantuan",
       "slug": "gargantuan",
       "name": "Gargantuan",
-      "displayName": "GARGANTUAN",
+      "displayName": "Gargantuan",
       "description": "A massive shell that deals 20% increased damage but has terrible accuracy.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Ammo/T_UI_Icon_Ammo_Gargantuan.T_UI_Icon_Ammo_Gargantuan",
       "selectable": true,
@@ -1866,33 +1840,11 @@
       }
     },
     {
-      "id": "heal",
-      "key": "Gameplay.Ammunition.Type.Heal",
-      "slug": "heal",
-      "name": "Heal",
-      "displayName": "HEAL",
-      "description": "HEAL ammunition.",
-      "icon": "/Game/UI/_Shared/Textures/Icon_Ammo/T_UI_Icon_Ammo_Heal.T_UI_Icon_Ammo_Heal",
-      "selectable": false,
-      "canLoadSecondary": false,
-      "modifiers": {
-        "damage": 3.0,
-        "penetration": 0.009999999776482582,
-        "reload": 1.0,
-        "dispersion": 1.0,
-        "detection": 1.0,
-        "velocity": 1.0
-      },
-      "source": {
-        "key": "Gameplay.Ammunition.Type.Heal"
-      }
-    },
-    {
       "id": "highaccuracy",
       "key": "Gameplay.Ammunition.Type.HighAccuracy",
       "slug": "highaccuracy",
       "name": "Highaccuracy",
-      "displayName": "HIGH ACCURACY",
+      "displayName": "High Accuracy",
       "description": "A shell with greatly improved accuracy and travel speed.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Ammo/T_UI_Icon_Ammo_HighAccuracy.T_UI_Icon_Ammo_HighAccuracy",
       "selectable": true,
@@ -1914,7 +1866,7 @@
       "key": "Gameplay.Ammunition.Type.HighExplosive",
       "slug": "highexplosive",
       "name": "Highexplosive",
-      "displayName": "HIGH EXPLOSIVE",
+      "displayName": "High Explosive",
       "description": "Deals 20% more damage but has fixed 45mm penetration.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Ammo/T_UI_Icon_Ammo_HighExplosive.T_UI_Icon_Ammo_HighExplosive",
       "selectable": true,
@@ -1936,7 +1888,7 @@
       "key": "Gameplay.Ammunition.Type.Mobility",
       "slug": "mobility",
       "name": "Mobility",
-      "displayName": "LIGHTWEIGHT",
+      "displayName": "Lightweight",
       "description": "A high velocity light shell with lower penetration and damage but increases max forward and reverse speeds by 10% while loaded.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Ammo/T_UI_Icon_Ammo_Mobility.T_UI_Icon_Ammo_Mobility",
       "selectable": true,
@@ -1956,33 +1908,11 @@
       }
     },
     {
-      "id": "lockdown",
-      "key": "Gameplay.Ammunition.Type.Lockdown",
-      "slug": "lockdown",
-      "name": "Lockdown",
-      "displayName": "LOCKDOWN",
-      "description": "LOCKDOWN ammunition.",
-      "icon": "None",
-      "selectable": false,
-      "canLoadSecondary": false,
-      "modifiers": {
-        "damage": 1.0,
-        "penetration": 1.0,
-        "reload": 1.0,
-        "dispersion": 1.0,
-        "detection": 1.0,
-        "velocity": 1.0
-      },
-      "source": {
-        "key": "Gameplay.Ammunition.Type.Lockdown"
-      }
-    },
-    {
       "id": "momentum",
       "key": "Gameplay.Ammunition.Type.Momentum",
       "slug": "momentum",
       "name": "Momentum",
-      "displayName": "MOMENTUM",
+      "displayName": "Momentum",
       "description": "A slow moving shell that deals 30% increased damage after traveling 200 meters (half max vision range). Travels at a fixed 500 m/s.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Ammo/T_UI_Icon_Ammo_Momentum.T_UI_Icon_Ammo_Momentum",
       "selectable": true,
@@ -2000,33 +1930,11 @@
       }
     },
     {
-      "id": "siege",
-      "key": "Gameplay.Ammunition.Type.Siege",
-      "slug": "siege",
-      "name": "Siege",
-      "displayName": "SIEGE",
-      "description": "SIEGE ammunition.",
-      "icon": "None",
-      "selectable": false,
-      "canLoadSecondary": false,
-      "modifiers": {
-        "damage": 1.25,
-        "penetration": 1.0,
-        "reload": 1.0,
-        "dispersion": 1.0,
-        "detection": 1.0,
-        "velocity": 1.0
-      },
-      "source": {
-        "key": "Gameplay.Ammunition.Type.Siege"
-      }
-    },
-    {
       "id": "silenced",
       "key": "Gameplay.Ammunition.Type.Silenced",
       "slug": "silenced",
       "name": "Silenced",
-      "displayName": "SILENCED",
+      "displayName": "Silenced",
       "description": "Fires silently without increasing visibility, but deals less damage.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Ammo/T_UI_Icon_Ammo_Silenced.T_UI_Icon_Ammo_Silenced",
       "selectable": true,
@@ -2048,7 +1956,7 @@
       "key": "Gameplay.Ammunition.Type.Leech",
       "slug": "leech",
       "name": "Leech",
-      "displayName": "SIPHON",
+      "displayName": "Siphon",
       "description": "Penetrating an enemy heals you for 20. This effect is tripled when you are below half health.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Ammo/T_UI_Icon_Ammo_Leech.T_UI_Icon_Ammo_Leech",
       "selectable": true,
@@ -2070,18 +1978,18 @@
       "key": "Gameplay.Ammunition.Type.Spotting",
       "slug": "spotting",
       "name": "Spotting",
-      "displayName": "SPOTTING",
-      "description": "Spots enemies on hit and also senses enemies near the impact.",
+      "displayName": "Spotting",
+      "description": "Spots enemies on hit and also senses enemies near the impact but deals less damage and travels slower.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Ammo/T_UI_Icon_Ammo_Spotting.T_UI_Icon_Ammo_Spotting",
       "selectable": true,
       "canLoadSecondary": true,
       "modifiers": {
-        "damage": 1.0,
+        "damage": 0.6000000238418579,
         "penetration": 1.0,
         "reload": 1.0,
         "dispersion": 1.0,
         "detection": 1.0,
-        "velocity": 1.0
+        "velocity": 0.6000000238418579
       },
       "source": {
         "key": "Gameplay.Ammunition.Type.Spotting"
@@ -2092,7 +2000,7 @@
       "key": "Gameplay.Ammunition.Type.Standard",
       "slug": "standard",
       "name": "Standard",
-      "displayName": "STANDARD",
+      "displayName": "Standard",
       "description": "Base firepower.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Ammo/T_UI_Icon_AmmoStandard.T_UI_Icon_AmmoStandard",
       "selectable": true,
@@ -2114,7 +2022,7 @@
       "key": "Gameplay.Ammunition.Type.Unstable",
       "slug": "unstable",
       "name": "Unstable",
-      "displayName": "UNSTABLE",
+      "displayName": "Unstable",
       "description": "An unstable shell that increases Accuracy and Shell damage by 10% but restricts Max Speed",
       "icon": "/Game/UI/_Shared/Textures/Icon_Ammo/T_UI_Icon_Ammo_Unstable.T_UI_Icon_Ammo_Unstable",
       "selectable": true,
@@ -2393,6 +2301,51 @@
       ],
       "source": {
         "key": "Gameplay.Components.CamoWeb"
+      }
+    },
+    {
+      "id": "cascadegate",
+      "key": "Gameplay.Components.CascadeGate",
+      "slug": "cascade-gate",
+      "name": "CASCADE GATE",
+      "description": "Using an ability while above 50 Energy increases your Energy generation from all sources by value for 15 seconds",
+      "descriptionTemplate": "Using an ability while above 50 Energy increases your Energy generation from all sources by {LevelValuePercent} for 15 seconds",
+      "valueTokens": [
+        "LevelValuePercent"
+      ],
+      "icon": "/Game/UI/_Shared/Textures/Icon_Components/Temp/T_UI_Components_CascadeGate.T_UI_Components_CascadeGate",
+      "categoryId": "ability",
+      "category": "Ability",
+      "pointValues": [
+        0.3499999940395355
+      ],
+      "tagIds": [
+        "Gameplay.Components.Categories.Ability"
+      ],
+      "eventTags": [
+        "Gameplay.Event.OnCommanderAbilityUse"
+      ],
+      "effectIds": [
+        "ge-components-cascadegateactivationeffect-ge-components-cascadegateactivationeffect"
+      ],
+      "effectPaths": [
+        "/Game/Blueprints/Abilities/Effects/Components/GE_Components_CascadeGateActivationEffect.GE_Components_CascadeGateActivationEffect_C"
+      ],
+      "effectBindings": [
+        {
+          "eventTag": "Gameplay.Event.OnCommanderAbilityUse",
+          "effectId": "ge-components-cascadegateactivationeffect-ge-components-cascadegateactivationeffect",
+          "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_CascadeGateActivationEffect.GE_Components_CascadeGateActivationEffect_C"
+        }
+      ],
+      "nativeVehicles": [
+        {
+          "vehicleId": "ranger",
+          "level": 10
+        }
+      ],
+      "source": {
+        "key": "Gameplay.Components.CascadeGate"
       }
     },
     {
@@ -2752,8 +2705,8 @@
       "key": "Gameplay.Components.EnergyVent",
       "slug": "energy-vent",
       "name": "ENERGY VENT",
-      "description": "Using your last energy charge increases Max Speed and Hull Traverse Speed by value. This effect can stack up to 5 times.",
-      "descriptionTemplate": "Using your last energy charge increases Max Speed and Hull Traverse Speed by {LevelValuePercentMultiplyIncrease}. This effect can stack up to 5 times.",
+      "description": "Using your last energy charge increases Max Speed, Max Reverse Speed and Hull Rotation Speed by value. This effect can stack up to 5 times.",
+      "descriptionTemplate": "Using your last energy charge increases Max Speed, Max Reverse Speed and Hull Rotation Speed by {LevelValuePercentMultiplyIncrease}. This effect can stack up to 5 times.",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease"
       ],
@@ -3125,10 +3078,6 @@
       ],
       "nativeVehicles": [
         {
-          "vehicleId": "ranger",
-          "level": 6
-        },
-        {
           "vehicleId": "recall",
           "level": 6
         }
@@ -3233,6 +3182,51 @@
       ],
       "source": {
         "key": "Gameplay.Components.MomentumImparter"
+      }
+    },
+    {
+      "id": "overflowshunt",
+      "key": "Gameplay.Components.OverflowShunt",
+      "slug": "overflow-shunt",
+      "name": "OVERFLOW SHUNT",
+      "description": "Increases your damage by value per 10 Energy you're holding",
+      "descriptionTemplate": "Increases your damage by {LevelValuePercent} per 10 Energy you're holding",
+      "valueTokens": [
+        "LevelValuePercent"
+      ],
+      "icon": "/Game/UI/_Shared/Textures/Icon_Components/Temp/T_UI_Components_OverflowShunt.T_UI_Components_OverflowShunt",
+      "categoryId": "firepower",
+      "category": "Firepower",
+      "pointValues": [
+        0.009999999776482582
+      ],
+      "tagIds": [
+        "Gameplay.Components.Categories.Firepower"
+      ],
+      "eventTags": [
+        "Gameplay.Event.LoadoutApplied"
+      ],
+      "effectIds": [
+        "ge-components-overflowshunt-ge-components-overflowshunt"
+      ],
+      "effectPaths": [
+        "/Game/Blueprints/Abilities/Effects/Components/GE_Components_OverflowShunt.GE_Components_OverflowShunt_C"
+      ],
+      "effectBindings": [
+        {
+          "eventTag": "Gameplay.Event.LoadoutApplied",
+          "effectId": "ge-components-overflowshunt-ge-components-overflowshunt",
+          "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_OverflowShunt.GE_Components_OverflowShunt_C"
+        }
+      ],
+      "nativeVehicles": [
+        {
+          "vehicleId": "ranger",
+          "level": 6
+        }
+      ],
+      "source": {
+        "key": "Gameplay.Components.OverflowShunt"
       }
     },
     {
@@ -3429,10 +3423,6 @@
         {
           "vehicleId": "canopener",
           "level": 3
-        },
-        {
-          "vehicleId": "ranger",
-          "level": 10
         }
       ],
       "source": {
@@ -3521,6 +3511,59 @@
       }
     },
     {
+      "id": "redirectorgear",
+      "key": "Gameplay.Components.RedirectorGear",
+      "slug": "redirector-gear",
+      "name": "REDIRECTOR GEAR",
+      "description": "Increases Hull Rotation Speed by value. Effect doubles while you are reloading.",
+      "descriptionTemplate": "Increases Hull Rotation Speed by {LevelValuePercentMultiplyIncrease}. Effect doubles while you are reloading.",
+      "valueTokens": [
+        "LevelValuePercentMultiplyIncrease"
+      ],
+      "icon": "/Game/UI/_Shared/Textures/Icon_Components/Temp/T_UI_Components_RedirectorGear.T_UI_Components_RedirectorGear",
+      "categoryId": "mobility",
+      "category": "Mobility",
+      "pointValues": [
+        1.100000023841858
+      ],
+      "tagIds": [
+        "Gameplay.Components.Categories.Mobility"
+      ],
+      "eventTags": [
+        "Gameplay.Event.LoadoutApplied",
+        "Gameplay.Event.WhileReloading"
+      ],
+      "effectIds": [
+        "ge-components-hulltraverse-ge-components-hulltraverse",
+        "ge-components-redirectorgearbuff-ge-components-redirectorgearbuff"
+      ],
+      "effectPaths": [
+        "/Game/Blueprints/Abilities/Effects/Components/GE_Components_HullTraverse.GE_Components_HullTraverse_C",
+        "/Game/Blueprints/Abilities/Effects/Components/GE_Components_RedirectorGearBuff.GE_Components_RedirectorGearBuff_C"
+      ],
+      "effectBindings": [
+        {
+          "eventTag": "Gameplay.Event.LoadoutApplied",
+          "effectId": "ge-components-hulltraverse-ge-components-hulltraverse",
+          "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_HullTraverse.GE_Components_HullTraverse_C"
+        },
+        {
+          "eventTag": "Gameplay.Event.WhileReloading",
+          "effectId": "ge-components-redirectorgearbuff-ge-components-redirectorgearbuff",
+          "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_RedirectorGearBuff.GE_Components_RedirectorGearBuff_C"
+        }
+      ],
+      "nativeVehicles": [
+        {
+          "vehicleId": "ranger",
+          "level": 3
+        }
+      ],
+      "source": {
+        "key": "Gameplay.Components.RedirectorGear"
+      }
+    },
+    {
       "id": "relentlessadapter",
       "key": "Gameplay.Components.RelentlessAdapter",
       "slug": "relentless-adapter",
@@ -3601,10 +3644,6 @@
         }
       ],
       "nativeVehicles": [
-        {
-          "vehicleId": "ranger",
-          "level": 3
-        },
         {
           "vehicleId": "seeker",
           "level": 3
@@ -3833,8 +3872,8 @@
       "key": "Gameplay.Components.SidescrapeGear",
       "slug": "sidescrape-gear",
       "name": "SIDESCRAPE GEAR",
-      "description": "Increases Hull Traverse Speed by value while not throttling.",
-      "descriptionTemplate": "Increases Hull Traverse Speed by {LevelValuePercentMultiplyIncrease} while not throttling.",
+      "description": "Increases Hull Rotation Speed by value while not throttling.",
+      "descriptionTemplate": "Increases Hull Rotation Speed by {LevelValuePercentMultiplyIncrease} while not throttling.",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease"
       ],
@@ -7215,6 +7254,33 @@
       }
     },
     {
+      "id": "vtol-talent004",
+      "key": "Gameplay.TalentTree.Vtol.Talent004",
+      "slug": "vtol-talent004-flight-transform-heal",
+      "name": "Flight Transform Heal",
+      "description": "Heals you for value (+{PointValue per point) after transforming out of flight form.",
+      "descriptionTemplate": "Heals you for {LevelValue} (+{PointValue per point) after transforming out of flight form.",
+      "valueTokens": [
+        "LevelValue"
+      ],
+      "supplementalDescription": "",
+      "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_HealShotAmount.T_UI_Talents_HealShotAmount",
+      "type": "Event",
+      "maxPoints": 3,
+      "pointValues": [
+        20,
+        40,
+        60
+      ],
+      "eventTags": [],
+      "effectIds": [],
+      "effectPaths": [],
+      "effectBindings": [],
+      "source": {
+        "key": "Gameplay.TalentTree.Vtol.Talent004"
+      }
+    },
+    {
       "id": "brawler-talent008",
       "key": "Gameplay.TalentTree.Brawler.Talent008",
       "slug": "brawler-talent008-hard-surface-speed",
@@ -7571,8 +7637,8 @@
     {
       "id": "ranger-talent006",
       "key": "Gameplay.TalentTree.Ranger.Talent006",
-      "slug": "ranger-talent006-hull-traverse-dispersion",
-      "name": "Hull Traverse Dispersion",
+      "slug": "ranger-talent006-hull-rotation-dispersion",
+      "name": "Hull Rotation Dispersion",
       "description": "Reduces Hull Rotation Dispersion on aiming by value (-value per point)",
       "descriptionTemplate": "Reduces Hull Rotation Dispersion on aiming by {LevelValuePercentMultiplyDecrease} (-{PointValuePercentMultiplyDecrease} per point)",
       "valueTokens": [
@@ -7613,15 +7679,15 @@
     {
       "id": "blink-talent008",
       "key": "Gameplay.TalentTree.Blink.Talent008",
-      "slug": "blink-talent008-hull-traverse-speed",
-      "name": "Hull Traverse Speed",
-      "description": "Increases Hull Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Hull Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "blink-talent008-hull-rotation-speed",
+      "name": "Hull Rotation Speed",
+      "description": "Increases Hull Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Hull Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Hull Traverse Speed is how fast you can rotate your vehicle's hull",
+      "supplementalDescription": "Hull Rotation Speed is how fast you can rotate your vehicle's hull",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_HullTraverse.T_UI_Talents_HullTraverse",
       "type": "Event",
       "maxPoints": 5,
@@ -7655,15 +7721,15 @@
     {
       "id": "brawler-talent014",
       "key": "Gameplay.TalentTree.Brawler.Talent014",
-      "slug": "brawler-talent014-hull-traverse-speed",
-      "name": "Hull Traverse Speed",
-      "description": "Increases Hull Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Hull Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "brawler-talent014-hull-rotation-speed",
+      "name": "Hull Rotation Speed",
+      "description": "Increases Hull Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Hull Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Hull Traverse Speed is how fast you can rotate your vehicle's hull",
+      "supplementalDescription": "Hull Rotation Speed is how fast you can rotate your vehicle's hull",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_HullTraverse.T_UI_Talents_HullTraverse",
       "type": "Event",
       "maxPoints": 5,
@@ -7697,15 +7763,15 @@
     {
       "id": "bush-talent007",
       "key": "Gameplay.TalentTree.Bush.Talent007",
-      "slug": "bush-talent007-hull-traverse-speed",
-      "name": "Hull Traverse Speed",
-      "description": "Increases Hull Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Hull Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "bush-talent007-hull-rotation-speed",
+      "name": "Hull Rotation Speed",
+      "description": "Increases Hull Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Hull Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Hull Traverse Speed is how fast you can rotate your vehicle's hull",
+      "supplementalDescription": "Hull Rotation Speed is how fast you can rotate your vehicle's hull",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_HullTraverse.T_UI_Talents_HullTraverse",
       "type": "Event",
       "maxPoints": 5,
@@ -7739,15 +7805,15 @@
     {
       "id": "canopener-talent004",
       "key": "Gameplay.TalentTree.CanOpener.Talent004",
-      "slug": "canopener-talent004-hull-traverse-speed",
-      "name": "Hull Traverse Speed",
-      "description": "Increases Hull Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Hull Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "canopener-talent004-hull-rotation-speed",
+      "name": "Hull Rotation Speed",
+      "description": "Increases Hull Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Hull Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Hull Traverse Speed is how fast you can rotate your vehicle's hull",
+      "supplementalDescription": "Hull Rotation Speed is how fast you can rotate your vehicle's hull",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_HullTraverse.T_UI_Talents_HullTraverse",
       "type": "Event",
       "maxPoints": 5,
@@ -7781,15 +7847,15 @@
     {
       "id": "drone-talent007",
       "key": "Gameplay.TalentTree.Drone.Talent007",
-      "slug": "drone-talent007-hull-traverse-speed",
-      "name": "Hull Traverse Speed",
-      "description": "Increases Hull Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Hull Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "drone-talent007-hull-rotation-speed",
+      "name": "Hull Rotation Speed",
+      "description": "Increases Hull Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Hull Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Hull Traverse Speed is how fast you can rotate your vehicle's hull",
+      "supplementalDescription": "Hull Rotation Speed is how fast you can rotate your vehicle's hull",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_HullTraverse.T_UI_Talents_HullTraverse",
       "type": "Event",
       "maxPoints": 5,
@@ -7823,15 +7889,15 @@
     {
       "id": "healer-talent002",
       "key": "Gameplay.TalentTree.Healer.Talent002",
-      "slug": "healer-talent002-hull-traverse-speed",
-      "name": "Hull Traverse Speed",
-      "description": "Increases Hull Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Hull Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "healer-talent002-hull-rotation-speed",
+      "name": "Hull Rotation Speed",
+      "description": "Increases Hull Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Hull Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Hull Traverse Speed is how fast you can rotate your vehicle's hull",
+      "supplementalDescription": "Hull Rotation Speed is how fast you can rotate your vehicle's hull",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_HullTraverse.T_UI_Talents_HullTraverse",
       "type": "Event",
       "maxPoints": 5,
@@ -7865,15 +7931,15 @@
     {
       "id": "ram-talent002",
       "key": "Gameplay.TalentTree.Ram.Talent002",
-      "slug": "ram-talent002-hull-traverse-speed",
-      "name": "Hull Traverse Speed",
-      "description": "Increases Hull Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Hull Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "ram-talent002-hull-rotation-speed",
+      "name": "Hull Rotation Speed",
+      "description": "Increases Hull Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Hull Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Hull Traverse Speed is how fast you can rotate your vehicle's hull",
+      "supplementalDescription": "Hull Rotation Speed is how fast you can rotate your vehicle's hull",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_HullTraverse.T_UI_Talents_HullTraverse",
       "type": "Event",
       "maxPoints": 5,
@@ -7907,15 +7973,15 @@
     {
       "id": "ranger-talent002",
       "key": "Gameplay.TalentTree.Ranger.Talent002",
-      "slug": "ranger-talent002-hull-traverse-speed",
-      "name": "Hull Traverse Speed",
-      "description": "Increases Hull Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Hull Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "ranger-talent002-hull-rotation-speed",
+      "name": "Hull Rotation Speed",
+      "description": "Increases Hull Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Hull Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Hull Traverse Speed is how fast you can rotate your vehicle's hull",
+      "supplementalDescription": "Hull Rotation Speed is how fast you can rotate your vehicle's hull",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_HullTraverse.T_UI_Talents_HullTraverse",
       "type": "Event",
       "maxPoints": 3,
@@ -7947,15 +8013,15 @@
     {
       "id": "recall-talent006",
       "key": "Gameplay.TalentTree.Recall.Talent006",
-      "slug": "recall-talent006-hull-traverse-speed",
-      "name": "Hull Traverse Speed",
-      "description": "Increases Hull Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Hull Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "recall-talent006-hull-rotation-speed",
+      "name": "Hull Rotation Speed",
+      "description": "Increases Hull Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Hull Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Hull Traverse Speed is how fast you can rotate your vehicle's hull",
+      "supplementalDescription": "Hull Rotation Speed is how fast you can rotate your vehicle's hull",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_HullTraverse.T_UI_Talents_HullTraverse",
       "type": "Event",
       "maxPoints": 5,
@@ -7989,15 +8055,15 @@
     {
       "id": "seeker-talent016",
       "key": "Gameplay.TalentTree.Seeker.Talent016",
-      "slug": "seeker-talent016-hull-traverse-speed",
-      "name": "Hull Traverse Speed",
-      "description": "Increases Hull Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Hull Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "seeker-talent016-hull-rotation-speed",
+      "name": "Hull Rotation Speed",
+      "description": "Increases Hull Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Hull Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Hull Traverse Speed is how fast you can rotate your vehicle's hull",
+      "supplementalDescription": "Hull Rotation Speed is how fast you can rotate your vehicle's hull",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_HullTraverse.T_UI_Talents_HullTraverse",
       "type": "Event",
       "maxPoints": 3,
@@ -8029,15 +8095,15 @@
     {
       "id": "sentinel-talent008",
       "key": "Gameplay.TalentTree.Sentinel.Talent008",
-      "slug": "sentinel-talent008-hull-traverse-speed",
-      "name": "Hull Traverse Speed",
-      "description": "Increases Hull Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Hull Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "sentinel-talent008-hull-rotation-speed",
+      "name": "Hull Rotation Speed",
+      "description": "Increases Hull Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Hull Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Hull Traverse Speed is how fast you can rotate your vehicle's hull",
+      "supplementalDescription": "Hull Rotation Speed is how fast you can rotate your vehicle's hull",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_HullTraverse.T_UI_Talents_HullTraverse",
       "type": "Event",
       "maxPoints": 5,
@@ -8071,15 +8137,15 @@
     {
       "id": "slow-talent008",
       "key": "Gameplay.TalentTree.Slow.Talent008",
-      "slug": "slow-talent008-hull-traverse-speed",
-      "name": "Hull Traverse Speed",
-      "description": "Increases Hull Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Hull Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "slow-talent008-hull-rotation-speed",
+      "name": "Hull Rotation Speed",
+      "description": "Increases Hull Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Hull Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Hull Traverse Speed is how fast you can rotate your vehicle's hull",
+      "supplementalDescription": "Hull Rotation Speed is how fast you can rotate your vehicle's hull",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_HullTraverse.T_UI_Talents_HullTraverse",
       "type": "Event",
       "maxPoints": 5,
@@ -8113,15 +8179,15 @@
     {
       "id": "sonar-talent008",
       "key": "Gameplay.TalentTree.Sonar.Talent008",
-      "slug": "sonar-talent008-hull-traverse-speed",
-      "name": "Hull Traverse Speed",
-      "description": "Increases Hull Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Hull Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "sonar-talent008-hull-rotation-speed",
+      "name": "Hull Rotation Speed",
+      "description": "Increases Hull Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Hull Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Hull Traverse Speed is how fast you can rotate your vehicle's hull",
+      "supplementalDescription": "Hull Rotation Speed is how fast you can rotate your vehicle's hull",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_HullTraverse.T_UI_Talents_HullTraverse",
       "type": "Event",
       "maxPoints": 5,
@@ -8155,15 +8221,15 @@
     {
       "id": "stealth-talent019",
       "key": "Gameplay.TalentTree.Stealth.Talent019",
-      "slug": "stealth-talent019-hull-traverse-speed",
-      "name": "Hull Traverse Speed",
-      "description": "Increases Hull Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Hull Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "stealth-talent019-hull-rotation-speed",
+      "name": "Hull Rotation Speed",
+      "description": "Increases Hull Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Hull Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Hull Traverse Speed is how fast you can rotate your vehicle's hull",
+      "supplementalDescription": "Hull Rotation Speed is how fast you can rotate your vehicle's hull",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_HullTraverse.T_UI_Talents_HullTraverse",
       "type": "Event",
       "maxPoints": 5,
@@ -8197,15 +8263,15 @@
     {
       "id": "vanguard-talent002",
       "key": "Gameplay.TalentTree.Vanguard.Talent002",
-      "slug": "vanguard-talent002-hull-traverse-speed",
-      "name": "Hull Traverse Speed",
-      "description": "Increases Hull Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Hull Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "vanguard-talent002-hull-rotation-speed",
+      "name": "Hull Rotation Speed",
+      "description": "Increases Hull Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Hull Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Hull Traverse Speed is how fast you can rotate your vehicle's hull",
+      "supplementalDescription": "Hull Rotation Speed is how fast you can rotate your vehicle's hull",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_HullTraverse.T_UI_Talents_HullTraverse",
       "type": "Event",
       "maxPoints": 5,
@@ -8237,57 +8303,17 @@
       }
     },
     {
-      "id": "vtol-talent004",
-      "key": "Gameplay.TalentTree.Vtol.Talent004",
-      "slug": "vtol-talent004-hull-traverse-speed",
-      "name": "Hull Traverse Speed",
-      "description": "Increases Hull Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Hull Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
-      "valueTokens": [
-        "LevelValuePercentMultiplyIncrease",
-        "PointValuePercentMultiplyIncrease"
-      ],
-      "supplementalDescription": "Hull Traverse Speed is how fast you can rotate your vehicle's hull",
-      "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_HullTraverse.T_UI_Talents_HullTraverse",
-      "type": "Event",
-      "maxPoints": 3,
-      "pointValues": [
-        1.0800000429153442,
-        1.159999966621399,
-        1.2400000095367432
-      ],
-      "eventTags": [
-        "Gameplay.Event.LoadoutApplied"
-      ],
-      "effectIds": [
-        "ge-hulltraversespeed-ge-hulltraversespeed"
-      ],
-      "effectPaths": [
-        "/Game/Blueprints/Abilities/Effects/Talents/GE_HullTraverseSpeed.GE_HullTraverseSpeed_C"
-      ],
-      "effectBindings": [
-        {
-          "eventTag": "Gameplay.Event.LoadoutApplied",
-          "effectId": "ge-hulltraversespeed-ge-hulltraversespeed",
-          "effectPath": "/Game/Blueprints/Abilities/Effects/Talents/GE_HullTraverseSpeed.GE_HullTraverseSpeed_C"
-        }
-      ],
-      "source": {
-        "key": "Gameplay.TalentTree.Vtol.Talent004"
-      }
-    },
-    {
       "id": "wall-talent007",
       "key": "Gameplay.TalentTree.Wall.Talent007",
-      "slug": "wall-talent007-hull-traverse-speed",
-      "name": "Hull Traverse Speed",
-      "description": "Increases Hull Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Hull Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "wall-talent007-hull-rotation-speed",
+      "name": "Hull Rotation Speed",
+      "description": "Increases Hull Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Hull Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Hull Traverse Speed is how fast you can rotate your vehicle's hull",
+      "supplementalDescription": "Hull Rotation Speed is how fast you can rotate your vehicle's hull",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_HullTraverse.T_UI_Talents_HullTraverse",
       "type": "Event",
       "maxPoints": 5,
@@ -10745,33 +10771,6 @@
       }
     },
     {
-      "id": "brawler-talent027",
-      "key": "Gameplay.TalentTree.Brawler.Talent027",
-      "slug": "brawler-talent027-mine-healing",
-      "name": "Mine Healing",
-      "description": "Heal value health when an enemy triggers one of your mines",
-      "descriptionTemplate": "Heal {LevelValue} health when an enemy triggers one of your mines",
-      "valueTokens": [
-        "LevelValue"
-      ],
-      "supplementalDescription": "",
-      "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_MineHealKeystone.T_UI_Talents_MineHealKeystone",
-      "type": "Event",
-      "maxPoints": 1,
-      "pointValues": [
-        75
-      ],
-      "eventTags": [
-        "Gameplay.Event.LoadoutApplied"
-      ],
-      "effectIds": [],
-      "effectPaths": [],
-      "effectBindings": [],
-      "source": {
-        "key": "Gameplay.TalentTree.Brawler.Talent027"
-      }
-    },
-    {
       "id": "brawler-talent026",
       "key": "Gameplay.TalentTree.Brawler.Talent026",
       "slug": "brawler-talent026-mine-reach",
@@ -10796,6 +10795,43 @@
       "effectBindings": [],
       "source": {
         "key": "Gameplay.TalentTree.Brawler.Talent026"
+      }
+    },
+    {
+      "id": "brawler-talent027",
+      "key": "Gameplay.TalentTree.Brawler.Talent027",
+      "slug": "brawler-talent027-mine-spread",
+      "name": "Mine Spread",
+      "description": "Increases your Hull Rotation Speed by value while deploying mines",
+      "descriptionTemplate": "Increases your Hull Rotation Speed by {LevelValuePercentMultiplyIncrease} while deploying mines",
+      "valueTokens": [
+        "LevelValuePercentMultiplyIncrease"
+      ],
+      "supplementalDescription": "",
+      "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_MineHealKeystone.T_UI_Talents_MineHealKeystone",
+      "type": "Event",
+      "maxPoints": 1,
+      "pointValues": [
+        1.600000023841858
+      ],
+      "eventTags": [
+        "Gameplay.Event.OnCommanderAbilityUse"
+      ],
+      "effectIds": [
+        "ge-brawlerkeystonehulltraversespeed-ge-brawlerkeystonehulltraversespeed"
+      ],
+      "effectPaths": [
+        "/Game/Blueprints/Abilities/Effects/Talents/GE_BrawlerKeystoneHullTraverseSpeed.GE_BrawlerKeystoneHullTraverseSpeed_C"
+      ],
+      "effectBindings": [
+        {
+          "eventTag": "Gameplay.Event.OnCommanderAbilityUse",
+          "effectId": "ge-brawlerkeystonehulltraversespeed-ge-brawlerkeystonehulltraversespeed",
+          "effectPath": "/Game/Blueprints/Abilities/Effects/Talents/GE_BrawlerKeystoneHullTraverseSpeed.GE_BrawlerKeystoneHullTraverseSpeed_C"
+        }
+      ],
+      "source": {
+        "key": "Gameplay.TalentTree.Brawler.Talent027"
       }
     },
     {
@@ -13099,8 +13135,8 @@
       "type": "Event",
       "maxPoints": 2,
       "pointValues": [
-        -0.75,
-        -1.5
+        -0.375,
+        -0.75
       ],
       "eventTags": [
         "Gameplay.Event.LoadoutApplied"
@@ -15005,33 +15041,6 @@
       }
     },
     {
-      "id": "canopener-talent026",
-      "key": "Gameplay.TalentTree.CanOpener.Talent026",
-      "slug": "canopener-talent026-shell-fabrication",
-      "name": "Shell Fabrication",
-      "description": "Successful Siege Shot penetrations generate value Tertiary Shell for yourself and all team members",
-      "descriptionTemplate": "Successful Siege Shot penetrations generate {LevelValue} Tertiary Shell for yourself and all team members",
-      "valueTokens": [
-        "LevelValue"
-      ],
-      "supplementalDescription": "",
-      "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_ShellFabricationSiegeKeystone.T_UI_Talents_ShellFabricationSiegeKeystone",
-      "type": "Event",
-      "maxPoints": 1,
-      "pointValues": [
-        1
-      ],
-      "eventTags": [
-        "Gameplay.Event.LoadoutApplied"
-      ],
-      "effectIds": [],
-      "effectPaths": [],
-      "effectBindings": [],
-      "source": {
-        "key": "Gameplay.TalentTree.CanOpener.Talent026"
-      }
-    },
-    {
       "id": "blink-talent002",
       "key": "Gameplay.TalentTree.Blink.Talent002",
       "slug": "blink-talent002-shell-swap-time",
@@ -15621,6 +15630,33 @@
       }
     },
     {
+      "id": "canopener-talent026",
+      "key": "Gameplay.TalentTree.CanOpener.Talent026",
+      "slug": "canopener-talent026-siege-amplification",
+      "name": "Siege Amplification",
+      "description": "Siege damage amplification increases by value each time you penetrate a Siege shot",
+      "descriptionTemplate": "Siege damage amplification increases by {LevelValuePercent} each time you penetrate a Siege shot",
+      "valueTokens": [
+        "LevelValuePercent"
+      ],
+      "supplementalDescription": "",
+      "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_ShellFabricationSiegeKeystone.T_UI_Talents_ShellFabricationSiegeKeystone",
+      "type": "Event",
+      "maxPoints": 1,
+      "pointValues": [
+        0.05000000074505806
+      ],
+      "eventTags": [
+        "Gameplay.Event.LoadoutApplied"
+      ],
+      "effectIds": [],
+      "effectPaths": [],
+      "effectBindings": [],
+      "source": {
+        "key": "Gameplay.TalentTree.CanOpener.Talent026"
+      }
+    },
+    {
       "id": "canopener-talent013",
       "key": "Gameplay.TalentTree.CanOpener.Talent013",
       "slug": "canopener-talent013-siege-load",
@@ -15996,7 +16032,7 @@
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Spotting assists happen when an ally damages an enemy you spotted. Spotting assists generate 2% of the assist value as energy by default.",
+      "supplementalDescription": "Spotting assists happen when an ally damages an enemy you spotted. Spotting assists generate 3% of the assist value as energy by default.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_SpottingAssistEnergy.T_UI_Talents_SpottingAssistEnergy",
       "type": "Event",
       "maxPoints": 2,
@@ -16035,7 +16071,7 @@
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Spotting assists happen when an ally damages an enemy you spotted. Spotting assists generate 2% of the assist value as energy by default.",
+      "supplementalDescription": "Spotting assists happen when an ally damages an enemy you spotted. Spotting assists generate 3% of the assist value as energy by default.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_SpottingAssistEnergy.T_UI_Talents_SpottingAssistEnergy",
       "type": "Event",
       "maxPoints": 5,
@@ -16077,7 +16113,7 @@
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Spotting assists happen when an ally damages an enemy you spotted. Spotting assists generate 2% of the assist value as energy by default.",
+      "supplementalDescription": "Spotting assists happen when an ally damages an enemy you spotted. Spotting assists generate 3% of the assist value as energy by default.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_SpottingAssistEnergy.T_UI_Talents_SpottingAssistEnergy",
       "type": "Event",
       "maxPoints": 3,
@@ -16117,7 +16153,7 @@
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Spotting assists happen when an ally damages an enemy you spotted. Spotting assists generate 2% of the assist value as energy by default.",
+      "supplementalDescription": "Spotting assists happen when an ally damages an enemy you spotted. Spotting assists generate 3% of the assist value as energy by default.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_SpottingAssistEnergy.T_UI_Talents_SpottingAssistEnergy",
       "type": "Event",
       "maxPoints": 3,
@@ -16157,7 +16193,7 @@
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Spotting assists happen when an ally damages an enemy you spotted. Spotting assists generate 2% of the assist value as energy by default.",
+      "supplementalDescription": "Spotting assists happen when an ally damages an enemy you spotted. Spotting assists generate 3% of the assist value as energy by default.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_SpottingAssistEnergy.T_UI_Talents_SpottingAssistEnergy",
       "type": "Event",
       "maxPoints": 3,
@@ -16197,7 +16233,7 @@
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Spotting assists happen when an ally damages an enemy you spotted. Spotting assists generate 2% of the assist value as energy by default.",
+      "supplementalDescription": "Spotting assists happen when an ally damages an enemy you spotted. Spotting assists generate 3% of the assist value as energy by default.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_SpottingAssistEnergy.T_UI_Talents_SpottingAssistEnergy",
       "type": "Event",
       "maxPoints": 3,
@@ -16237,7 +16273,7 @@
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Spotting assists happen when an ally damages an enemy you spotted. Spotting assists generate 2% of the assist value as energy by default.",
+      "supplementalDescription": "Spotting assists happen when an ally damages an enemy you spotted. Spotting assists generate 3% of the assist value as energy by default.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_SpottingAssistEnergy.T_UI_Talents_SpottingAssistEnergy",
       "type": "Event",
       "maxPoints": 5,
@@ -16279,7 +16315,7 @@
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Spotting assists happen when an ally damages an enemy you spotted. Spotting assists generate 2% of the assist value as energy by default.",
+      "supplementalDescription": "Spotting assists happen when an ally damages an enemy you spotted. Spotting assists generate 3% of the assist value as energy by default.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_SpottingAssistEnergy.T_UI_Talents_SpottingAssistEnergy",
       "type": "Event",
       "maxPoints": 3,
@@ -18242,8 +18278,8 @@
       "key": "Gameplay.TalentTree.Bush.Talent027",
       "slug": "bush-talent027-thicket-haste",
       "name": "Thicket Haste",
-      "description": "While inside a bush, Max Speed, Max Reverse Speed and Hull Traverse Speed are increased by value",
-      "descriptionTemplate": "While inside a bush, Max Speed, Max Reverse Speed and Hull Traverse Speed are increased by {LevelValuePercentMultiplyIncrease}",
+      "description": "While inside a bush, Max Speed, Max Reverse Speed and Hull Rotation Speed are increased by value",
+      "descriptionTemplate": "While inside a bush, Max Speed, Max Reverse Speed and Hull Rotation Speed are increased by {LevelValuePercentMultiplyIncrease}",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease"
       ],
@@ -18623,15 +18659,15 @@
     {
       "id": "brawler-talent015",
       "key": "Gameplay.TalentTree.Brawler.Talent015",
-      "slug": "brawler-talent015-turret-traverse-dispersion",
-      "name": "Turret Traverse Dispersion",
+      "slug": "brawler-talent015-turret-rotation-dispersion",
+      "name": "Turret Rotation Dispersion",
       "description": "Reduces Turret Rotation Dispersion on aiming by value (-value per point)",
       "descriptionTemplate": "Reduces Turret Rotation Dispersion on aiming by {LevelValuePercentMultiplyDecrease} (-{PointValuePercentMultiplyDecrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyDecrease",
         "PointValuePercentMultiplyDecrease"
       ],
-      "supplementalDescription": "Turret Traverse Dispersion is how inaccurate your aim becomes when you move your turret.",
+      "supplementalDescription": "Turret Rotation Dispersion is how inaccurate your aim becomes when you move your turret.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_TurretRotationDispersion.T_UI_Talents_TurretRotationDispersion",
       "type": "Event",
       "maxPoints": 5,
@@ -18665,15 +18701,15 @@
     {
       "id": "canopener-talent006",
       "key": "Gameplay.TalentTree.CanOpener.Talent006",
-      "slug": "canopener-talent006-turret-traverse-dispersion",
-      "name": "Turret Traverse Dispersion",
+      "slug": "canopener-talent006-turret-rotation-dispersion",
+      "name": "Turret Rotation Dispersion",
       "description": "Reduces Turret Rotation Dispersion on aiming by value (-value per point)",
       "descriptionTemplate": "Reduces Turret Rotation Dispersion on aiming by {LevelValuePercentMultiplyDecrease} (-{PointValuePercentMultiplyDecrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyDecrease",
         "PointValuePercentMultiplyDecrease"
       ],
-      "supplementalDescription": "Turret Traverse Dispersion is how inaccurate your aim becomes when you move your turret.",
+      "supplementalDescription": "Turret Rotation Dispersion is how inaccurate your aim becomes when you move your turret.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_TurretRotationDispersion.T_UI_Talents_TurretRotationDispersion",
       "type": "Event",
       "maxPoints": 5,
@@ -18707,15 +18743,15 @@
     {
       "id": "sentinel-talent010",
       "key": "Gameplay.TalentTree.Sentinel.Talent010",
-      "slug": "sentinel-talent010-turret-traverse-dispersion",
-      "name": "Turret Traverse Dispersion",
+      "slug": "sentinel-talent010-turret-rotation-dispersion",
+      "name": "Turret Rotation Dispersion",
       "description": "Reduces Turret Rotation Dispersion on aiming by value (-value per point)",
       "descriptionTemplate": "Reduces Turret Rotation Dispersion on aiming by {LevelValuePercentMultiplyDecrease} (-{PointValuePercentMultiplyDecrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyDecrease",
         "PointValuePercentMultiplyDecrease"
       ],
-      "supplementalDescription": "Turret Traverse Dispersion is how inaccurate your aim becomes when you move your turret.",
+      "supplementalDescription": "Turret Rotation Dispersion is how inaccurate your aim becomes when you move your turret.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_TurretRotationDispersion.T_UI_Talents_TurretRotationDispersion",
       "type": "Event",
       "maxPoints": 5,
@@ -18749,15 +18785,15 @@
     {
       "id": "wall-talent006",
       "key": "Gameplay.TalentTree.Wall.Talent006",
-      "slug": "wall-talent006-turret-traverse-dispersion",
-      "name": "Turret Traverse Dispersion",
+      "slug": "wall-talent006-turret-rotation-dispersion",
+      "name": "Turret Rotation Dispersion",
       "description": "Reduces Turret Rotation Dispersion on aiming by value (-value per point)",
       "descriptionTemplate": "Reduces Turret Rotation Dispersion on aiming by {LevelValuePercentMultiplyDecrease} (-{PointValuePercentMultiplyDecrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyDecrease",
         "PointValuePercentMultiplyDecrease"
       ],
-      "supplementalDescription": "Turret Traverse Dispersion is how inaccurate your aim becomes when you move your turret.",
+      "supplementalDescription": "Turret Rotation Dispersion is how inaccurate your aim becomes when you move your turret.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_TurretRotationDispersion.T_UI_Talents_TurretRotationDispersion",
       "type": "Event",
       "maxPoints": 5,
@@ -18791,10 +18827,10 @@
     {
       "id": "brawler-talent002",
       "key": "Gameplay.TalentTree.Brawler.Talent002",
-      "slug": "brawler-talent002-turret-traverse-speed",
-      "name": "Turret Traverse Speed",
-      "description": "Increases Turret Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Turret Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "brawler-talent002-turret-rotation-speed",
+      "name": "Turret Rotation Speed",
+      "description": "Increases Turret Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Turret Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
@@ -18831,15 +18867,15 @@
     {
       "id": "bush-talent001",
       "key": "Gameplay.TalentTree.Bush.Talent001",
-      "slug": "bush-talent001-turret-traverse-speed",
-      "name": "Turret Traverse Speed",
-      "description": "Increases Turret Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Turret Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "bush-talent001-turret-rotation-speed",
+      "name": "Turret Rotation Speed",
+      "description": "Increases Turret Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Turret Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Turret Traverse Speed is how fast you can rotate your vehicle's turret",
+      "supplementalDescription": "Turret Rotation Speed is how fast you can rotate your vehicle's turret",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_TurretTraverseSpeed.T_UI_Talents_TurretTraverseSpeed",
       "type": "Event",
       "maxPoints": 3,
@@ -18871,15 +18907,15 @@
     {
       "id": "canopener-talent002",
       "key": "Gameplay.TalentTree.CanOpener.Talent002",
-      "slug": "canopener-talent002-turret-traverse-speed",
-      "name": "Turret Traverse Speed",
-      "description": "Increases Turret Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Turret Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "canopener-talent002-turret-rotation-speed",
+      "name": "Turret Rotation Speed",
+      "description": "Increases Turret Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Turret Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Turret Traverse Speed is how fast you can rotate your vehicle's turret",
+      "supplementalDescription": "Turret Rotation Speed is how fast you can rotate your vehicle's turret",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_TurretTraverseSpeed.T_UI_Talents_TurretTraverseSpeed",
       "type": "Event",
       "maxPoints": 3,
@@ -18911,15 +18947,15 @@
     {
       "id": "deadeye-talent001",
       "key": "Gameplay.TalentTree.Deadeye.Talent001",
-      "slug": "deadeye-talent001-turret-traverse-speed",
-      "name": "Turret Traverse Speed",
-      "description": "Increases Turret Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Turret Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "deadeye-talent001-turret-rotation-speed",
+      "name": "Turret Rotation Speed",
+      "description": "Increases Turret Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Turret Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Turret Traverse Speed is how fast you can rotate your vehicle's turret",
+      "supplementalDescription": "Turret Rotation Speed is how fast you can rotate your vehicle's turret",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_TurretTraverseSpeed.T_UI_Talents_TurretTraverseSpeed",
       "type": "Event",
       "maxPoints": 3,
@@ -18951,15 +18987,15 @@
     {
       "id": "ram-talent008",
       "key": "Gameplay.TalentTree.Ram.Talent008",
-      "slug": "ram-talent008-turret-traverse-speed",
-      "name": "Turret Traverse Speed",
-      "description": "Increases Turret Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Turret Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "ram-talent008-turret-rotation-speed",
+      "name": "Turret Rotation Speed",
+      "description": "Increases Turret Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Turret Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Turret Traverse Speed is how fast you can rotate your vehicle's turret",
+      "supplementalDescription": "Turret Rotation Speed is how fast you can rotate your vehicle's turret",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_TurretTraverseSpeed.T_UI_Talents_TurretTraverseSpeed",
       "type": "Event",
       "maxPoints": 2,
@@ -18990,15 +19026,15 @@
     {
       "id": "sentinel-talent005",
       "key": "Gameplay.TalentTree.Sentinel.Talent005",
-      "slug": "sentinel-talent005-turret-traverse-speed",
-      "name": "Turret Traverse Speed",
-      "description": "Increases Turret Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Turret Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "sentinel-talent005-turret-rotation-speed",
+      "name": "Turret Rotation Speed",
+      "description": "Increases Turret Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Turret Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Turret Traverse Speed is how fast you can rotate your vehicle's turret",
+      "supplementalDescription": "Turret Rotation Speed is how fast you can rotate your vehicle's turret",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_TurretTraverseSpeed.T_UI_Talents_TurretTraverseSpeed",
       "type": "Event",
       "maxPoints": 2,
@@ -19029,15 +19065,15 @@
     {
       "id": "slow-talent006",
       "key": "Gameplay.TalentTree.Slow.Talent006",
-      "slug": "slow-talent006-turret-traverse-speed",
-      "name": "Turret Traverse Speed",
-      "description": "Increases Turret Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Turret Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "slow-talent006-turret-rotation-speed",
+      "name": "Turret Rotation Speed",
+      "description": "Increases Turret Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Turret Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Turret Traverse Speed is how fast you can rotate your vehicle's turret",
+      "supplementalDescription": "Turret Rotation Speed is how fast you can rotate your vehicle's turret",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_TurretTraverseSpeed.T_UI_Talents_TurretTraverseSpeed",
       "type": "Event",
       "maxPoints": 2,
@@ -19068,15 +19104,15 @@
     {
       "id": "sonar-talent007",
       "key": "Gameplay.TalentTree.Sonar.Talent007",
-      "slug": "sonar-talent007-turret-traverse-speed",
-      "name": "Turret Traverse Speed",
-      "description": "Increases Turret Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Turret Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "sonar-talent007-turret-rotation-speed",
+      "name": "Turret Rotation Speed",
+      "description": "Increases Turret Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Turret Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Turret Traverse Speed is how fast you can rotate your vehicle's turret",
+      "supplementalDescription": "Turret Rotation Speed is how fast you can rotate your vehicle's turret",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_TurretTraverseSpeed.T_UI_Talents_TurretTraverseSpeed",
       "type": "Event",
       "maxPoints": 3,
@@ -19108,15 +19144,15 @@
     {
       "id": "wall-talent003",
       "key": "Gameplay.TalentTree.Wall.Talent003",
-      "slug": "wall-talent003-turret-traverse-speed",
-      "name": "Turret Traverse Speed",
-      "description": "Increases Turret Traverse Speed by value (+value per point)",
-      "descriptionTemplate": "Increases Turret Traverse Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
+      "slug": "wall-talent003-turret-rotation-speed",
+      "name": "Turret Rotation Speed",
+      "description": "Increases Turret Rotation Speed by value (+value per point)",
+      "descriptionTemplate": "Increases Turret Rotation Speed by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease",
         "PointValuePercentMultiplyIncrease"
       ],
-      "supplementalDescription": "Turret Traverse Speed is how fast you can rotate your vehicle's turret",
+      "supplementalDescription": "Turret Rotation Speed is how fast you can rotate your vehicle's turret",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_TurretTraverseSpeed.T_UI_Talents_TurretTraverseSpeed",
       "type": "Event",
       "maxPoints": 3,
@@ -22838,6 +22874,51 @@
       "gameplayCues": []
     },
     {
+      "id": "ge-brawlerkeystonehulltraversespeed-ge-brawlerkeystonehulltraversespeed",
+      "path": "/Game/Blueprints/Abilities/Effects/Talents/GE_BrawlerKeystoneHullTraverseSpeed.GE_BrawlerKeystoneHullTraverseSpeed_C",
+      "durationPolicy": "HasDuration",
+      "durationMagnitude": "(ScalableFloatMagnitude=(Value=2.000000,Curve=(),RegistryType=\"None\"),AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()),CustomMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()),SetByCallerMagnitude=(DataTag=()))",
+      "period": "(Curve=(),RegistryType=\"None\")",
+      "chanceToApply": "(Value=1.000000,Curve=(),RegistryType=\"None\")",
+      "stackingType": "AggregateByTarget",
+      "stackLimit": 1,
+      "stackDurationRefreshPolicy": "",
+      "stackPeriodResetPolicy": "",
+      "tags": [],
+      "ownedTags": [],
+      "removeEffectsWithTags": [],
+      "tagRequirements": {
+        "application": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        },
+        "ongoing": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        },
+        "removal": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        }
+      },
+      "modifiers": [
+        {
+          "attribute": "HullTraverseSpeed",
+          "attributeSet": "TyrAttributeSetVehicleStats",
+          "op": "MultiplyAdditive",
+          "magnitude": "MagnitudeCalculationType=CustomCalculationClass | ScalableFloatMagnitude=(Curve=(),RegistryType=\"None\") | AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()) | CustomMagnitude=(CalculationClassMagnitude=\"/Script/CoreUObject.Class'/Script/Tyr.TyrTalentMagCalculation'\",Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()) | SetByCallerMagnitude=(DataTag=())",
+          "magnitudeType": "CustomCalculationClass",
+          "calculationClass": "/Script/CoreUObject.Class'/Script/Tyr.TyrTalentMagCalculation'",
+          "scalableFloatValue": null
+        }
+      ],
+      "executions": [],
+      "gameplayCues": []
+    },
+    {
       "id": "ge-camouflage-additive-ge-camouflage-additive",
       "path": "/Game/Blueprints/Abilities/Effects/Talents/GE_Camouflage_Additive.GE_Camouflage_Additive_C",
       "durationPolicy": "Infinite",
@@ -23272,6 +23353,41 @@
           "scalableFloatValue": null
         }
       ],
+      "executions": [],
+      "gameplayCues": []
+    },
+    {
+      "id": "ge-components-cascadegateactivationeffect-ge-components-cascadegateactivationeffect",
+      "path": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_CascadeGateActivationEffect.GE_Components_CascadeGateActivationEffect_C",
+      "durationPolicy": "HasDuration",
+      "durationMagnitude": "(ScalableFloatMagnitude=(Value=0.200000,Curve=(),RegistryType=\"None\"),AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()),CustomMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()),SetByCallerMagnitude=(DataTag=()))",
+      "period": "(Curve=(),RegistryType=\"None\")",
+      "chanceToApply": "(Value=1.000000,Curve=(),RegistryType=\"None\")",
+      "stackingType": "AggregateBySource",
+      "stackLimit": 1,
+      "stackDurationRefreshPolicy": "",
+      "stackPeriodResetPolicy": "",
+      "tags": [],
+      "ownedTags": [],
+      "removeEffectsWithTags": [],
+      "tagRequirements": {
+        "application": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        },
+        "ongoing": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        },
+        "removal": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        }
+      },
+      "modifiers": [],
       "executions": [],
       "gameplayCues": []
     },
@@ -24183,6 +24299,51 @@
       "gameplayCues": []
     },
     {
+      "id": "ge-components-overflowshunt-ge-components-overflowshunt",
+      "path": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_OverflowShunt.GE_Components_OverflowShunt_C",
+      "durationPolicy": "Infinite",
+      "durationMagnitude": "(ScalableFloatMagnitude=(Value=2.000000,Curve=(),RegistryType=\"None\"),AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()),CustomMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()),SetByCallerMagnitude=(DataTag=()))",
+      "period": "(Curve=(),RegistryType=\"None\")",
+      "chanceToApply": "(Value=1.000000,Curve=(),RegistryType=\"None\")",
+      "stackingType": "AggregateBySource",
+      "stackLimit": 1,
+      "stackDurationRefreshPolicy": "",
+      "stackPeriodResetPolicy": "",
+      "tags": [],
+      "ownedTags": [],
+      "removeEffectsWithTags": [],
+      "tagRequirements": {
+        "application": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        },
+        "ongoing": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        },
+        "removal": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        }
+      },
+      "modifiers": [
+        {
+          "attribute": "OutgoingDamagePercentIncrease",
+          "attributeSet": "TyrAttributeSetDamage",
+          "op": "AddBase",
+          "magnitude": "MagnitudeCalculationType=AttributeBased | ScalableFloatMagnitude=(Curve=(),RegistryType=\"None\") | AttributeBasedMagnitude=(Coefficient=(Value=0.001000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=(AttributeName=\"CurrentAbilityResource\",Attribute=/Script/Tyr.TyrAttributeSetAbilityResource:CurrentAbilityResource,AttributeOwner=\"/Script/CoreUObject.Class'/Script/Tyr.TyrAttributeSetAbilityResource'\")),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()) | CustomMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()) | SetByCallerMagnitude=(DataTag=())",
+          "magnitudeType": "AttributeBased",
+          "calculationClass": "",
+          "scalableFloatValue": null
+        }
+      ],
+      "executions": [],
+      "gameplayCues": []
+    },
+    {
       "id": "ge-components-phasegear-ge-components-phasegear",
       "path": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_PhaseGear.GE_Components_PhaseGear_C",
       "durationPolicy": "Infinite",
@@ -24393,6 +24554,51 @@
         }
       },
       "modifiers": [],
+      "executions": [],
+      "gameplayCues": []
+    },
+    {
+      "id": "ge-components-redirectorgearbuff-ge-components-redirectorgearbuff",
+      "path": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_RedirectorGearBuff.GE_Components_RedirectorGearBuff_C",
+      "durationPolicy": "Infinite",
+      "durationMagnitude": "(ScalableFloatMagnitude=(Value=8.000000,Curve=(),RegistryType=\"None\"),AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()),CustomMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()),SetByCallerMagnitude=(DataTag=()))",
+      "period": "(Curve=(),RegistryType=\"None\")",
+      "chanceToApply": "(Value=1.000000,Curve=(),RegistryType=\"None\")",
+      "stackingType": "AggregateBySource",
+      "stackLimit": 1,
+      "stackDurationRefreshPolicy": "",
+      "stackPeriodResetPolicy": "",
+      "tags": [],
+      "ownedTags": [],
+      "removeEffectsWithTags": [],
+      "tagRequirements": {
+        "application": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        },
+        "ongoing": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        },
+        "removal": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        }
+      },
+      "modifiers": [
+        {
+          "attribute": "HullTraverseSpeed",
+          "attributeSet": "TyrAttributeSetVehicleStats",
+          "op": "MultiplyAdditive",
+          "magnitude": "MagnitudeCalculationType=CustomCalculationClass | ScalableFloatMagnitude=(Curve=(),RegistryType=\"None\") | AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()) | CustomMagnitude=(CalculationClassMagnitude=\"/Script/CoreUObject.Class'/Script/Tyr.TyrComponentMagCalculation'\",Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()) | SetByCallerMagnitude=(DataTag=())",
+          "magnitudeType": "CustomCalculationClass",
+          "calculationClass": "/Script/CoreUObject.Class'/Script/Tyr.TyrComponentMagCalculation'",
+          "scalableFloatValue": null
+        }
+      ],
       "executions": [],
       "gameplayCues": []
     },
@@ -27342,18 +27548,6 @@
         "key": "Map_Dunes_Rework",
         "minimapTexture": "/Game/UI/_Shared/Textures/Minimap/T_Minimap_Dunes.T_Minimap_Dunes",
         "lobbyTexture": "/Game/UI/Loading/Textures/T_UI_Splashart_Map_Dunes.T_UI_Splashart_Map_Dunes"
-      }
-    },
-    {
-      "id": "expanse",
-      "slug": "expanse",
-      "name": "Expanse",
-      "displayName": "Prototype: Expanse",
-      "status": "prototype",
-      "source": {
-        "key": "Map_Expanse",
-        "minimapTexture": "/Game/UI/_Shared/Textures/Minimap/T_Minimap_Expanse.T_Minimap_Expanse",
-        "lobbyTexture": "/Game/UI/Loading/Textures/T_UI_Splashart_Map_Expanse.T_UI_Splashart_Map_Expanse"
       }
     },
     {

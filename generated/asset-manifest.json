@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-31T18:48:47.220867+00:00",
-  "sourceChangelist": 32942,
+  "generatedAt": "2026-08-26T16:17:50.335500+00:00",
+  "sourceChangelist": 34479,
   "exporter": {
     "revision": 3,
     "changelist": 30152
@@ -69,7 +69,6 @@
   "mapImageIds": [
     "divide",
     "dunes",
-    "expanse",
     "fields",
     "ikarus-only",
     "ravine",
@@ -80,10 +79,7 @@
   ],
   "ammoIconIds": [
     "abilityresource",
-    "armorpiercing",
-    "crippling",
     "gargantuan",
-    "heal",
     "highaccuracy",
     "highexplosive",
     "leech",
@@ -99,6 +95,7 @@
     "agitator",
     "bulkheads",
     "camoweb",
+    "cascadegate",
     "catalyticreservoir",
     "coreamp",
     "corebooster",
@@ -116,11 +113,13 @@
     "microplating",
     "modulesurger",
     "momentumimparter",
+    "overflowshunt",
     "phasemodule",
     "powerconverter",
     "propagationdrive",
     "quickslot",
     "reactivemodules",
+    "redirectorgear",
     "relentlessadapter",
     "repairmechanism",
     "senseoverdrive",
