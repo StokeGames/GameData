@@ -1,13 +1,13 @@
 {
   "metadata": {
     "schemaVersion": 1,
-    "generatedAt": "2026-08-26T16:17:50.335500+00:00",
+    "generatedAt": "2026-09-24T09:31:13.798824+00:00",
     "rawSource": "python-export",
-    "sourceChangelist": 34479,
+    "sourceChangelist": 36410,
     "sourceRevisionPolicy": "client-stream-max-have",
     "exporter": {
-      "revision": 3,
-      "changelist": 30152
+      "revision": 5,
+      "changelist": 35081
     }
   },
   "vehicles": [
@@ -224,7 +224,7 @@
         "MaxAbilityResource": 100,
         "VisionRadius": 400,
         "DetectionRadius": 55,
-        "ReloadTime": 8,
+        "ReloadTime": 9,
         "ClipSize": 1,
         "IntraClipReloadTime": 0,
         "AbilityWindUpTime": 0,
@@ -237,7 +237,7 @@
         "MaxReverseSpeed": 15,
         "MaxStrafingSpeed": 0,
         "AccelerationTime": 4.5,
-        "HullTraverseSpeed": 35,
+        "HullTraverseSpeed": 28,
         "TurretTraverseSpeed": 28,
         "GunTraverseSpeed": 30,
         "GunMaxDepression": -9,
@@ -656,7 +656,7 @@
         "DifficultyRating": 4,
         "FirepowerRating": 3,
         "DurabilityRating": 1,
-        "AbilityRating": 8,
+        "AbilityRating": 7,
         "ScoutingRating": 8,
         "AbilityDuration": 0,
         "MaxTurretRotation": 360,
@@ -1408,7 +1408,7 @@
       "selectable": true,
       "weightKg": 17500,
       "stats": {
-        "MaxHealth": 850,
+        "MaxHealth": 950,
         "MaxAbilityResource": 100,
         "VisionRadius": 400,
         "DetectionRadius": 55,
@@ -1438,7 +1438,7 @@
         "HullTraverseDispersionPenalty": 3,
         "TurretTraverseDispersionPenalty": 0.4000000059604645,
         "FiringDispersionPenalty": 1.5,
-        "DispersionReductionSpeed": 1.2999999523162842,
+        "DispersionReductionSpeed": 1.559999942779541,
         "InitialAbilityResource": 33,
         "AltAmmoCountOne": 2,
         "AltAmmoCountTwo": 0,
@@ -1619,12 +1619,12 @@
         "AbilityCooldown": 30,
         "ShellDamage": 283,
         "ShellPenetration": 80,
-        "MaxSpeed": 31,
-        "MaxReverseSpeed": 17,
+        "MaxSpeed": 29,
+        "MaxReverseSpeed": 15,
         "MaxStrafingSpeed": 0,
         "AccelerationTime": 2.5,
         "HullTraverseSpeed": 35,
-        "TurretTraverseSpeed": 24,
+        "TurretTraverseSpeed": 20,
         "GunTraverseSpeed": 30,
         "GunMaxDepression": -14,
         "GunMaxElevation": 25,
@@ -1957,7 +1957,7 @@
       "slug": "leech",
       "name": "Leech",
       "displayName": "Siphon",
-      "description": "Penetrating an enemy heals you for 20. This effect is tripled when you are below half health.",
+      "description": "Penetrating an enemy heals you for 18. This effect is tripled when you are below half health.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Ammo/T_UI_Icon_Ammo_Leech.T_UI_Icon_Ammo_Leech",
       "selectable": true,
       "canLoadSecondary": false,
@@ -2564,7 +2564,7 @@
       "categoryId": "mobility",
       "category": "Mobility",
       "pointValues": [
-        1.1200000047683716
+        1.149999976158142
       ],
       "tagIds": [
         "Gameplay.Components.Categories.Mobility"
@@ -2723,16 +2723,16 @@
         "Gameplay.Event.OnCommanderAbilityUse"
       ],
       "effectIds": [
-        "ge-components-energyventactivationeffect-ge-components-energyventactivationeffect"
+        "ge-components-energyventbuff-ge-components-energyventbuff"
       ],
       "effectPaths": [
-        "/Game/Blueprints/Abilities/Effects/Components/GE_Components_EnergyVentActivationEffect.GE_Components_EnergyVentActivationEffect_C"
+        "/Game/Blueprints/Abilities/Effects/Components/GE_Components_EnergyVentBuff.GE_Components_EnergyVentBuff_C"
       ],
       "effectBindings": [
         {
           "eventTag": "Gameplay.Event.OnCommanderAbilityUse",
-          "effectId": "ge-components-energyventactivationeffect-ge-components-energyventactivationeffect",
-          "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_EnergyVentActivationEffect.GE_Components_EnergyVentActivationEffect_C"
+          "effectId": "ge-components-energyventbuff-ge-components-energyventbuff",
+          "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_EnergyVentBuff.GE_Components_EnergyVentBuff_C"
         }
       ],
       "nativeVehicles": [
@@ -2951,7 +2951,7 @@
       "categoryId": "durability",
       "category": "Durability",
       "pointValues": [
-        75
+        85
       ],
       "tagIds": [
         "Gameplay.Components.Categories.Durability"
@@ -3010,7 +3010,7 @@
       "categoryId": "firepower",
       "category": "Firepower",
       "pointValues": [
-        -1
+        -1.5
       ],
       "tagIds": [
         "Gameplay.Components.Categories.Firepower"
@@ -3524,7 +3524,7 @@
       "categoryId": "mobility",
       "category": "Mobility",
       "pointValues": [
-        1.100000023841858
+        1.1200000047683716
       ],
       "tagIds": [
         "Gameplay.Components.Categories.Mobility"
@@ -3716,7 +3716,7 @@
       "categoryId": "firepower",
       "category": "Firepower",
       "pointValues": [
-        7.5
+        8.5
       ],
       "tagIds": [
         "Gameplay.Components.Categories.Firepower"
@@ -4139,16 +4139,16 @@
       "key": "Gameplay.Components.WeaknessAnalyzer",
       "slug": "weakness-analyzer",
       "name": "WEAKNESS ANALYZER",
-      "description": "Damaging an enemy module speeds up your active reload by value seconds",
-      "descriptionTemplate": "Damaging an enemy module speeds up your active reload by {LevelValueAbs} seconds",
+      "description": "Damaging an enemy module speeds up your active reload by value seconds.",
+      "descriptionTemplate": "Damaging an enemy module speeds up your active reload by {LevelValue} seconds.",
       "valueTokens": [
-        "LevelValueAbs"
+        "LevelValue"
       ],
       "icon": "/Game/UI/_Shared/Textures/Icon_Components/Temp/T_UI_Components_WeaknessAnalyzer.T_UI_Components_WeaknessAnalyzer",
       "categoryId": "firepower",
       "category": "Firepower",
       "pointValues": [
-        -1
+        1
       ],
       "tagIds": [
         "Gameplay.Components.Categories.Firepower"
@@ -4922,6 +4922,46 @@
       ],
       "source": {
         "key": "Gameplay.TalentTree.Wall.Talent022"
+      }
+    },
+    {
+      "id": "blink-talent016",
+      "key": "Gameplay.TalentTree.Blink.Talent016",
+      "slug": "blink-talent016-acceleration",
+      "name": "Acceleration",
+      "description": "Increases Acceleration by value (+value per point)",
+      "descriptionTemplate": "Increases Acceleration by {LevelValuePercentMultiplyDecrease} (+{PointValuePercentMultiplyDecrease} per point)",
+      "valueTokens": [
+        "LevelValuePercentMultiplyDecrease",
+        "PointValuePercentMultiplyDecrease"
+      ],
+      "supplementalDescription": "Acceleration is how fast you can reach top speed",
+      "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_Acceleration.T_UI_Talents_Acceleration",
+      "type": "Event",
+      "maxPoints": 3,
+      "pointValues": [
+        0.9700000286102295,
+        0.9399999976158142,
+        0.9100000262260437
+      ],
+      "eventTags": [
+        "Gameplay.Event.LoadoutApplied"
+      ],
+      "effectIds": [
+        "ge-acceleration-ge-acceleration"
+      ],
+      "effectPaths": [
+        "/Game/Blueprints/Abilities/Effects/Talents/GE_Acceleration.GE_Acceleration_C"
+      ],
+      "effectBindings": [
+        {
+          "eventTag": "Gameplay.Event.LoadoutApplied",
+          "effectId": "ge-acceleration-ge-acceleration",
+          "effectPath": "/Game/Blueprints/Abilities/Effects/Talents/GE_Acceleration.GE_Acceleration_C"
+        }
+      ],
+      "source": {
+        "key": "Gameplay.TalentTree.Blink.Talent016"
       }
     },
     {
@@ -7258,19 +7298,20 @@
       "key": "Gameplay.TalentTree.Vtol.Talent004",
       "slug": "vtol-talent004-flight-transform-heal",
       "name": "Flight Transform Heal",
-      "description": "Heals you for value (+{PointValue per point) after transforming out of flight form.",
-      "descriptionTemplate": "Heals you for {LevelValue} (+{PointValue per point) after transforming out of flight form.",
+      "description": "Heals you for value (+value per point) after transforming out of flight form.",
+      "descriptionTemplate": "Heals you for {LevelValue} (+{PointValue} per point) after transforming out of flight form.",
       "valueTokens": [
-        "LevelValue"
+        "LevelValue",
+        "PointValue"
       ],
       "supplementalDescription": "",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_HealShotAmount.T_UI_Talents_HealShotAmount",
       "type": "Event",
       "maxPoints": 3,
       "pointValues": [
-        20,
-        40,
-        60
+        25,
+        50,
+        75
       ],
       "eventTags": [],
       "effectIds": [],
@@ -8432,9 +8473,9 @@
       "slug": "sentinel-talent027-lingering-mist",
       "name": "Lingering Mist",
       "description": "The Smoke Wall reduces your time spotted by value seconds while active",
-      "descriptionTemplate": "The Smoke Wall reduces your time spotted by {LevelValue} seconds while active",
+      "descriptionTemplate": "The Smoke Wall reduces your time spotted by {LevelValueAbs} seconds while active",
       "valueTokens": [
-        "LevelValue"
+        "LevelValueAbs"
       ],
       "supplementalDescription": "",
       "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_SmokeWallBlindingKeystone.T_UI_Talents_SmokeWallBlindingKeystone",
@@ -9705,46 +9746,6 @@
       }
     },
     {
-      "id": "blink-talent016",
-      "key": "Gameplay.TalentTree.Blink.Talent016",
-      "slug": "blink-talent016-max-hover-tilt",
-      "name": "Max Hover Tilt",
-      "description": "Increases Max Hover Tilt Angle by value (+value per point)",
-      "descriptionTemplate": "Increases Max Hover Tilt Angle by {LevelValuePercentMultiplyIncrease} (+{PointValuePercentMultiplyIncrease} per point)",
-      "valueTokens": [
-        "LevelValuePercentMultiplyIncrease",
-        "PointValuePercentMultiplyIncrease"
-      ],
-      "supplementalDescription": "Hover vehicles will tilt their hulls while stationary to follow your aim and extend your gun depression up to a max limit",
-      "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_MaxHoverTilt.T_UI_Talents_MaxHoverTilt",
-      "type": "Event",
-      "maxPoints": 3,
-      "pointValues": [
-        2,
-        3,
-        4
-      ],
-      "eventTags": [
-        "Gameplay.Event.LoadoutApplied"
-      ],
-      "effectIds": [
-        "ge-maxhovertilt-ge-maxhovertilt"
-      ],
-      "effectPaths": [
-        "/Game/Blueprints/Abilities/Effects/Talents/GE_MaxHoverTilt.GE_MaxHoverTilt_C"
-      ],
-      "effectBindings": [
-        {
-          "eventTag": "Gameplay.Event.LoadoutApplied",
-          "effectId": "ge-maxhovertilt-ge-maxhovertilt",
-          "effectPath": "/Game/Blueprints/Abilities/Effects/Talents/GE_MaxHoverTilt.GE_MaxHoverTilt_C"
-        }
-      ],
-      "source": {
-        "key": "Gameplay.TalentTree.Blink.Talent016"
-      }
-    },
-    {
       "id": "brawler-talent006",
       "key": "Gameplay.TalentTree.Brawler.Talent006",
       "slug": "brawler-talent006-max-reverse-speed",
@@ -10802,8 +10803,8 @@
       "key": "Gameplay.TalentTree.Brawler.Talent027",
       "slug": "brawler-talent027-mine-spread",
       "name": "Mine Spread",
-      "description": "Increases your Hull Rotation Speed by value while deploying mines",
-      "descriptionTemplate": "Increases your Hull Rotation Speed by {LevelValuePercentMultiplyIncrease} while deploying mines",
+      "description": "Increases your Hull Rotation Speed by value while deploying mines and 1.5s after.",
+      "descriptionTemplate": "Increases your Hull Rotation Speed by {LevelValuePercentMultiplyIncrease} while deploying mines and 1.5s after.",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease"
       ],
@@ -17566,7 +17567,7 @@
       "type": "Event",
       "maxPoints": 1,
       "pointValues": [
-        6
+        3
       ],
       "eventTags": [
         "Gameplay.Event.LoadoutApplied"
@@ -23714,14 +23715,14 @@
       "gameplayCues": []
     },
     {
-      "id": "ge-components-energyventactivationeffect-ge-components-energyventactivationeffect",
-      "path": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_EnergyVentActivationEffect.GE_Components_EnergyVentActivationEffect_C",
-      "durationPolicy": "HasDuration",
-      "durationMagnitude": "(ScalableFloatMagnitude=(Value=0.200000,Curve=(),RegistryType=\"None\"),AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()),CustomMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()),SetByCallerMagnitude=(DataTag=()))",
+      "id": "ge-components-energyventbuff-ge-components-energyventbuff",
+      "path": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_EnergyVentBuff.GE_Components_EnergyVentBuff_C",
+      "durationPolicy": "Infinite",
+      "durationMagnitude": "(ScalableFloatMagnitude=(Value=8.000000,Curve=(),RegistryType=\"None\"),AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()),CustomMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()),SetByCallerMagnitude=(DataTag=()))",
       "period": "(Curve=(),RegistryType=\"None\")",
       "chanceToApply": "(Value=1.000000,Curve=(),RegistryType=\"None\")",
       "stackingType": "AggregateBySource",
-      "stackLimit": 1,
+      "stackLimit": 5,
       "stackDurationRefreshPolicy": "",
       "stackPeriodResetPolicy": "",
       "tags": [],
@@ -23744,7 +23745,35 @@
           "tagQuery": null
         }
       },
-      "modifiers": [],
+      "modifiers": [
+        {
+          "attribute": "HullTraverseSpeed",
+          "attributeSet": "TyrAttributeSetVehicleStats",
+          "op": "MultiplyAdditive",
+          "magnitude": "MagnitudeCalculationType=CustomCalculationClass | ScalableFloatMagnitude=(Curve=(),RegistryType=\"None\") | AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()) | CustomMagnitude=(CalculationClassMagnitude=\"/Script/CoreUObject.Class'/Script/Tyr.TyrComponentMagCalculation'\",Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()) | SetByCallerMagnitude=(DataTag=())",
+          "magnitudeType": "CustomCalculationClass",
+          "calculationClass": "/Script/CoreUObject.Class'/Script/Tyr.TyrComponentMagCalculation'",
+          "scalableFloatValue": null
+        },
+        {
+          "attribute": "MaxReverseSpeed",
+          "attributeSet": "TyrAttributeSetVehicleStats",
+          "op": "MultiplyAdditive",
+          "magnitude": "MagnitudeCalculationType=CustomCalculationClass | ScalableFloatMagnitude=(Curve=(),RegistryType=\"None\") | AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()) | CustomMagnitude=(CalculationClassMagnitude=\"/Script/CoreUObject.Class'/Script/Tyr.TyrComponentMagCalculation'\",Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()) | SetByCallerMagnitude=(DataTag=())",
+          "magnitudeType": "CustomCalculationClass",
+          "calculationClass": "/Script/CoreUObject.Class'/Script/Tyr.TyrComponentMagCalculation'",
+          "scalableFloatValue": null
+        },
+        {
+          "attribute": "MaxSpeed",
+          "attributeSet": "TyrAttributeSetVehicleStats",
+          "op": "MultiplyAdditive",
+          "magnitude": "MagnitudeCalculationType=CustomCalculationClass | ScalableFloatMagnitude=(Curve=(),RegistryType=\"None\") | AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()) | CustomMagnitude=(CalculationClassMagnitude=\"/Script/CoreUObject.Class'/Script/Tyr.TyrComponentMagCalculation'\",Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()) | SetByCallerMagnitude=(DataTag=())",
+          "magnitudeType": "CustomCalculationClass",
+          "calculationClass": "/Script/CoreUObject.Class'/Script/Tyr.TyrComponentMagCalculation'",
+          "scalableFloatValue": null
+        }
+      ],
       "executions": [],
       "gameplayCues": []
     },
@@ -25987,51 +26016,6 @@
       "gameplayCues": []
     },
     {
-      "id": "ge-maxhovertilt-ge-maxhovertilt",
-      "path": "/Game/Blueprints/Abilities/Effects/Talents/GE_MaxHoverTilt.GE_MaxHoverTilt_C",
-      "durationPolicy": "Infinite",
-      "durationMagnitude": "(ScalableFloatMagnitude=(Curve=(),RegistryType=\"None\"),AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()),CustomMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()),SetByCallerMagnitude=(DataTag=()))",
-      "period": "(Curve=(),RegistryType=\"None\")",
-      "chanceToApply": "(Value=1.000000,Curve=(),RegistryType=\"None\")",
-      "stackingType": "AggregateByTarget",
-      "stackLimit": 1,
-      "stackDurationRefreshPolicy": "",
-      "stackPeriodResetPolicy": "",
-      "tags": [],
-      "ownedTags": [],
-      "removeEffectsWithTags": [],
-      "tagRequirements": {
-        "application": {
-          "requiredTags": [],
-          "ignoredTags": [],
-          "tagQuery": null
-        },
-        "ongoing": {
-          "requiredTags": [],
-          "ignoredTags": [],
-          "tagQuery": null
-        },
-        "removal": {
-          "requiredTags": [],
-          "ignoredTags": [],
-          "tagQuery": null
-        }
-      },
-      "modifiers": [
-        {
-          "attribute": "GunMaxHoverTilt",
-          "attributeSet": "TyrAttributeSetVehicleStats",
-          "op": "MultiplyAdditive",
-          "magnitude": "MagnitudeCalculationType=CustomCalculationClass | ScalableFloatMagnitude=(Curve=(),RegistryType=\"None\") | AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()) | CustomMagnitude=(CalculationClassMagnitude=\"/Script/CoreUObject.Class'/Script/Tyr.TyrTalentMagCalculation'\",Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()) | SetByCallerMagnitude=(DataTag=())",
-          "magnitudeType": "CustomCalculationClass",
-          "calculationClass": "/Script/CoreUObject.Class'/Script/Tyr.TyrTalentMagCalculation'",
-          "scalableFloatValue": null
-        }
-      ],
-      "executions": [],
-      "gameplayCues": []
-    },
-    {
       "id": "ge-maxreversespeed-ge-maxreversespeed",
       "path": "/Game/Blueprints/Abilities/Effects/Talents/GE_MaxReverseSpeed.GE_MaxReverseSpeed_C",
       "durationPolicy": "Infinite",
@@ -27526,6 +27510,18 @@
     }
   ],
   "maps": [
+    {
+      "id": "core",
+      "slug": "core",
+      "name": "Core",
+      "displayName": "Core",
+      "status": "released",
+      "source": {
+        "key": "Map_Core_V2",
+        "minimapTexture": "/Game/UI/_Shared/Textures/Minimap/T_Minimap_Map_Core.T_Minimap_Map_Core",
+        "lobbyTexture": "/Game/UI/Loading/Textures/T_UI_Splashart_Map_Core.T_UI_Splashart_Map_Core"
+      }
+    },
     {
       "id": "divide",
       "slug": "divide",

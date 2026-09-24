@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-26T16:17:50.335500+00:00",
-  "sourceChangelist": 34479,
+  "generatedAt": "2026-09-24T09:31:13.798824+00:00",
+  "sourceChangelist": 36410,
   "exporter": {
-    "revision": 3,
-    "changelist": 30152
+    "revision": 5,
+    "changelist": 35081
   },
   "vehicleImageIds": [
     "blink",
@@ -67,6 +67,7 @@
     "wall"
   ],
   "mapImageIds": [
+    "core",
     "divide",
     "dunes",
     "fields",
@@ -536,6 +537,14 @@
     "wall"
   ],
   "uiIconIds": [
-    "alpha-program"
+    "alpha-program",
+    "rank-bronze",
+    "rank-diamond",
+    "rank-gold",
+    "rank-grandmaster",
+    "rank-master",
+    "rank-platinum",
+    "rank-silver",
+    "rank-wood"
   ]
 }
