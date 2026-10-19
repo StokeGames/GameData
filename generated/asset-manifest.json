@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-24T09:31:13.798824+00:00",
-  "sourceChangelist": 36410,
+  "generatedAt": "2026-10-19T14:25:50.904248+00:00",
+  "sourceChangelist": 37952,
   "exporter": {
     "revision": 5,
     "changelist": 35081
@@ -71,6 +71,7 @@
     "divide",
     "dunes",
     "fields",
+    "glade",
     "ikarus-only",
     "ravine",
     "ruins",
@@ -101,6 +102,7 @@
     "coreamp",
     "corebooster",
     "coreinjector",
+    "densifier",
     "driftsparker",
     "duplicator",
     "energyexpander",

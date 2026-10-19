@@ -1,9 +1,9 @@
 {
   "metadata": {
     "schemaVersion": 1,
-    "generatedAt": "2026-09-24T09:31:13.798824+00:00",
+    "generatedAt": "2026-10-19T14:25:50.904248+00:00",
     "rawSource": "python-export",
-    "sourceChangelist": 36410,
+    "sourceChangelist": 37952,
     "sourceRevisionPolicy": "client-stream-max-have",
     "exporter": {
       "revision": 5,
@@ -230,7 +230,7 @@
         "AbilityWindUpTime": 0,
         "AbilityWindDownTime": 0,
         "AbilityCost": 33,
-        "AbilityCooldown": 7,
+        "AbilityCooldown": 14,
         "ShellDamage": 282,
         "ShellPenetration": 90,
         "MaxSpeed": 48,
@@ -323,7 +323,7 @@
         "MaxAbilityResource": 100,
         "VisionRadius": 400,
         "DetectionRadius": 100,
-        "ReloadTime": 13,
+        "ReloadTime": 15,
         "ClipSize": 1,
         "IntraClipReloadTime": 2.5,
         "AbilityWindUpTime": 0,
@@ -408,105 +408,6 @@
       }
     },
     {
-      "id": "deadeye",
-      "key": "Gameplay.Vehicle.Deadeye",
-      "slug": "deadeye",
-      "name": "Deadeye",
-      "classId": "medium",
-      "classLabel": "Medium",
-      "isWorkInProgress": true,
-      "selectable": true,
-      "weightKg": 21500,
-      "stats": {
-        "MaxHealth": 1200,
-        "MaxAbilityResource": 100,
-        "VisionRadius": 400,
-        "DetectionRadius": 55,
-        "ReloadTime": 15.25,
-        "ClipSize": 2,
-        "IntraClipReloadTime": 1,
-        "AbilityWindUpTime": 4.5,
-        "AbilityWindDownTime": 2,
-        "AbilityCost": 25,
-        "AbilityCooldown": 10,
-        "ShellDamage": 235,
-        "ShellPenetration": 80,
-        "MaxSpeed": 45,
-        "MaxReverseSpeed": 30,
-        "MaxStrafingSpeed": 0,
-        "AccelerationTime": 4,
-        "HullTraverseSpeed": 44,
-        "TurretTraverseSpeed": 35,
-        "GunTraverseSpeed": 35,
-        "GunMaxDepression": -6,
-        "GunMaxElevation": 45,
-        "GunMaxHoverTilt": 0,
-        "Mass": 21500,
-        "ShellVelocity": 900,
-        "BaseDispersionPenalty": 0.20000000298023224,
-        "MovementDispersionPenalty": 0.8399999737739563,
-        "HullTraverseDispersionPenalty": 0.8399999737739563,
-        "TurretTraverseDispersionPenalty": 0.4000000059604645,
-        "FiringDispersionPenalty": 1.2000000476837158,
-        "DispersionReductionSpeed": 0.75,
-        "InitialAbilityResource": 33,
-        "AltAmmoCountOne": 2,
-        "AltAmmoCountTwo": 0,
-        "AltAmmoCountThree": 0,
-        "ProxyVisionRadius": 35,
-        "CamoPercentage": 25,
-        "DifficultyRating": 4,
-        "FirepowerRating": 6,
-        "DurabilityRating": 6,
-        "AbilityRating": 5,
-        "ScoutingRating": 6,
-        "AbilityDuration": 0,
-        "MaxTurretRotation": 360,
-        "NumAmmunitionSlots": 4,
-        "SpottedTime": 7,
-        "CaptureZoneSpeedMultiplier": 1,
-        "CaptureZoneShellsGainedMultiplier": 1,
-        "StartingSecondaryShellsMultiplier": 1,
-        "StartingTertiaryShellsMultiplier": 1,
-        "ShellSwapTime": 4,
-        "PreciseDispersionTime": 5
-      },
-      "ability": {
-        "name": "Elevate",
-        "description": "Detach and elevate your turret into the air. Lasts for 17s, or until the vehicle reloads.",
-        "icon": "/TyrVehicleDeadeye/UI/T_UI_AbilityIcons_Deadeye.T_UI_AbilityIcons_Deadeye"
-      },
-      "loadout": {
-        "componentSlotCount": 3,
-        "ammoSlotCount": 3,
-        "defaultAmmoIds": [
-          "standard",
-          "standard",
-          "standard"
-        ],
-        "previewAmmoSlot": 0,
-        "talentTreeId": "deadeye"
-      },
-      "nativeComponents": [
-        {
-          "componentId": "shellstabilizer",
-          "level": 3
-        },
-        {
-          "componentId": "camoweb",
-          "level": 6
-        },
-        {
-          "componentId": "vulnbreaker",
-          "level": 10
-        }
-      ],
-      "source": {
-        "tankKey": "Gameplay.Vehicle.Deadeye",
-        "vehicleUiKey": "Gameplay.Vehicle.Deadeye"
-      }
-    },
-    {
       "id": "brawler",
       "key": "Gameplay.Vehicle.Brawler",
       "slug": "fortis",
@@ -521,14 +422,14 @@
         "MaxAbilityResource": 100,
         "VisionRadius": 400,
         "DetectionRadius": 90,
-        "ReloadTime": 11.5,
+        "ReloadTime": 11,
         "ClipSize": 1,
         "IntraClipReloadTime": 4.5,
         "AbilityWindUpTime": 0,
         "AbilityWindDownTime": 0,
         "AbilityCost": 40,
         "AbilityCooldown": 6,
-        "ShellDamage": 315,
+        "ShellDamage": 330,
         "ShellPenetration": 80,
         "MaxSpeed": 35,
         "MaxReverseSpeed": 18,
@@ -727,7 +628,7 @@
         "AbilityCost": 33,
         "AbilityCooldown": 20,
         "ShellDamage": 200,
-        "ShellPenetration": 80,
+        "ShellPenetration": 85,
         "MaxSpeed": 33,
         "MaxReverseSpeed": 18,
         "MaxStrafingSpeed": 0,
@@ -1101,6 +1002,105 @@
       }
     },
     {
+      "id": "deadeye",
+      "key": "Gameplay.Vehicle.Deadeye",
+      "slug": "parallax",
+      "name": "Parallax",
+      "classId": "medium",
+      "classLabel": "Medium",
+      "isWorkInProgress": true,
+      "selectable": true,
+      "weightKg": 21500,
+      "stats": {
+        "MaxHealth": 1200,
+        "MaxAbilityResource": 100,
+        "VisionRadius": 400,
+        "DetectionRadius": 55,
+        "ReloadTime": 15.25,
+        "ClipSize": 2,
+        "IntraClipReloadTime": 1,
+        "AbilityWindUpTime": 4.5,
+        "AbilityWindDownTime": 2,
+        "AbilityCost": 25,
+        "AbilityCooldown": 10,
+        "ShellDamage": 235,
+        "ShellPenetration": 80,
+        "MaxSpeed": 45,
+        "MaxReverseSpeed": 30,
+        "MaxStrafingSpeed": 0,
+        "AccelerationTime": 4,
+        "HullTraverseSpeed": 44,
+        "TurretTraverseSpeed": 35,
+        "GunTraverseSpeed": 35,
+        "GunMaxDepression": -6,
+        "GunMaxElevation": 45,
+        "GunMaxHoverTilt": 0,
+        "Mass": 21500,
+        "ShellVelocity": 900,
+        "BaseDispersionPenalty": 0.20000000298023224,
+        "MovementDispersionPenalty": 0.8399999737739563,
+        "HullTraverseDispersionPenalty": 0.8399999737739563,
+        "TurretTraverseDispersionPenalty": 0.4000000059604645,
+        "FiringDispersionPenalty": 1.2000000476837158,
+        "DispersionReductionSpeed": 0.75,
+        "InitialAbilityResource": 33,
+        "AltAmmoCountOne": 2,
+        "AltAmmoCountTwo": 0,
+        "AltAmmoCountThree": 0,
+        "ProxyVisionRadius": 35,
+        "CamoPercentage": 25,
+        "DifficultyRating": 4,
+        "FirepowerRating": 6,
+        "DurabilityRating": 6,
+        "AbilityRating": 5,
+        "ScoutingRating": 6,
+        "AbilityDuration": 0,
+        "MaxTurretRotation": 360,
+        "NumAmmunitionSlots": 4,
+        "SpottedTime": 7,
+        "CaptureZoneSpeedMultiplier": 1,
+        "CaptureZoneShellsGainedMultiplier": 1,
+        "StartingSecondaryShellsMultiplier": 1,
+        "StartingTertiaryShellsMultiplier": 1,
+        "ShellSwapTime": 4,
+        "PreciseDispersionTime": 5
+      },
+      "ability": {
+        "name": "Elevate",
+        "description": "Detach and elevate your turret into the air. Lasts for 17s, or until the vehicle reloads.",
+        "icon": "/TyrVehicleDeadeye/UI/T_UI_AbilityIcons_Deadeye.T_UI_AbilityIcons_Deadeye"
+      },
+      "loadout": {
+        "componentSlotCount": 3,
+        "ammoSlotCount": 3,
+        "defaultAmmoIds": [
+          "standard",
+          "standard",
+          "standard"
+        ],
+        "previewAmmoSlot": 0,
+        "talentTreeId": "deadeye"
+      },
+      "nativeComponents": [
+        {
+          "componentId": "shellstabilizer",
+          "level": 3
+        },
+        {
+          "componentId": "camoweb",
+          "level": 6
+        },
+        {
+          "componentId": "vulnbreaker",
+          "level": 10
+        }
+      ],
+      "source": {
+        "tankKey": "Gameplay.Vehicle.Deadeye",
+        "vehicleUiKey": "Gameplay.Vehicle.Deadeye"
+      }
+    },
+    {
       "id": "stealth",
       "key": "Gameplay.Vehicle.Stealth",
       "slug": "phantom",
@@ -1417,8 +1417,8 @@
         "IntraClipReloadTime": 1,
         "AbilityWindUpTime": 0,
         "AbilityWindDownTime": 3,
-        "AbilityCost": 30,
-        "AbilityCooldown": 12,
+        "AbilityCost": 40,
+        "AbilityCooldown": 20,
         "ShellDamage": 155,
         "ShellPenetration": 70,
         "MaxSpeed": 75,
@@ -1463,7 +1463,7 @@
       },
       "ability": {
         "name": "Snitch",
-        "description": "Launch a tracking snitch droid that flies at and pings the closest unspotted enemy within 400m. Loiters at its initial location if no enemies are found.",
+        "description": "Launch a tracking snitch droid that flies at and pings the closest unspotted enemy within 200m. Loiters at its initial location if no enemies are found.",
         "icon": "/Game/UI/HUD/Textures/T_UI_HUD_KillConfirm.T_UI_HUD_KillConfirm"
       },
       "loadout": {
@@ -1602,7 +1602,7 @@
       "name": "Tricera",
       "classId": "heavy",
       "classLabel": "Heavy",
-      "isWorkInProgress": true,
+      "isWorkInProgress": false,
       "selectable": true,
       "weightKg": 46000,
       "stats": {
@@ -1677,7 +1677,7 @@
       },
       "nativeComponents": [
         {
-          "componentId": "reactivemodules",
+          "componentId": "overflowshunt",
           "level": 3
         },
         {
@@ -1685,7 +1685,7 @@
           "level": 6
         },
         {
-          "componentId": "hotchamber",
+          "componentId": "densifier",
           "level": 10
         }
       ],
@@ -1957,7 +1957,7 @@
       "slug": "leech",
       "name": "Leech",
       "displayName": "Siphon",
-      "description": "Penetrating an enemy heals you for 18. This effect is tripled when you are below half health.",
+      "description": "Penetrating an enemy heals you for 15. This effect is tripled when you are below half health.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Ammo/T_UI_Icon_Ammo_Leech.T_UI_Icon_Ammo_Leech",
       "selectable": true,
       "canLoadSecondary": false,
@@ -2023,7 +2023,7 @@
       "slug": "unstable",
       "name": "Unstable",
       "displayName": "Unstable",
-      "description": "An unstable shell that increases Accuracy and Shell damage by 10% but restricts Max Speed",
+      "description": "An unstable shell that increases Accuracy and Shell damage by 10% but restricts Max Speed while loaded.",
       "icon": "/Game/UI/_Shared/Textures/Icon_Ammo/T_UI_Icon_Ammo_Unstable.T_UI_Icon_Ammo_Unstable",
       "selectable": true,
       "canLoadSecondary": true,
@@ -2413,41 +2413,19 @@
         "Gameplay.Components.Categories.Ability"
       ],
       "eventTags": [
-        "Gameplay.Event.OnBounce",
-        "Gameplay.Event.OnCommanderAbilityUse",
-        "Gameplay.Event.OnHit",
-        "Gameplay.Event.OnHitTerrain"
+        "Gameplay.Event.OnCommanderAbilityUse"
       ],
       "effectIds": [
-        "ge-components-coreampbuff-ge-components-coreampbuff",
-        "ge-components-coreampbuffremover-ge-components-coreampbuffremover",
-        "ge-components-coreamphittrigger-ge-components-coreamphittrigger"
+        "ge-components-coreampbuff-ge-components-coreampbuff"
       ],
       "effectPaths": [
-        "/Game/Blueprints/Abilities/Effects/Components/GE_Components_CoreAmpBuff.GE_Components_CoreAmpBuff_C",
-        "/Game/Blueprints/Abilities/Effects/Components/GE_Components_CoreAmpBuffRemover.GE_Components_CoreAmpBuffRemover_C",
-        "/Game/Blueprints/Abilities/Effects/Components/GE_Components_CoreAmpHitTrigger.GE_Components_CoreAmpHitTrigger_C"
+        "/Game/Blueprints/Abilities/Effects/Components/GE_Components_CoreAmpBuff.GE_Components_CoreAmpBuff_C"
       ],
       "effectBindings": [
-        {
-          "eventTag": "Gameplay.Event.OnBounce",
-          "effectId": "ge-components-coreampbuffremover-ge-components-coreampbuffremover",
-          "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_CoreAmpBuffRemover.GE_Components_CoreAmpBuffRemover_C"
-        },
         {
           "eventTag": "Gameplay.Event.OnCommanderAbilityUse",
           "effectId": "ge-components-coreampbuff-ge-components-coreampbuff",
           "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_CoreAmpBuff.GE_Components_CoreAmpBuff_C"
-        },
-        {
-          "eventTag": "Gameplay.Event.OnHit",
-          "effectId": "ge-components-coreamphittrigger-ge-components-coreamphittrigger",
-          "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_CoreAmpHitTrigger.GE_Components_CoreAmpHitTrigger_C"
-        },
-        {
-          "eventTag": "Gameplay.Event.OnHitTerrain",
-          "effectId": "ge-components-coreampbuffremover-ge-components-coreampbuffremover",
-          "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_CoreAmpBuffRemover.GE_Components_CoreAmpBuffRemover_C"
         }
       ],
       "nativeVehicles": [
@@ -2548,6 +2526,57 @@
       ],
       "source": {
         "key": "Gameplay.Components.CoreInjector"
+      }
+    },
+    {
+      "id": "densifier",
+      "key": "Gameplay.Components.Densifier",
+      "slug": "densifier",
+      "name": "DENSIFIER",
+      "description": "Bouncing an enemy shot increases your Max Health by value and heals for the same amount. Getting hit by a shot activates for half effect.",
+      "descriptionTemplate": "Bouncing an enemy shot increases your Max Health by {LevelValue} and heals for the same amount. Getting hit by a shot activates for half effect.",
+      "valueTokens": [
+        "LevelValue"
+      ],
+      "icon": "/Game/UI/_Shared/Textures/Icon_Components/Temp/T_UI_Components_Densifier.T_UI_Components_Densifier",
+      "categoryId": "durability",
+      "category": "Durability",
+      "pointValues": [
+        16
+      ],
+      "tagIds": [
+        "Gameplay.Components.Categories.Durability"
+      ],
+      "eventTags": [
+        "Gameplay.Event.OnBeingHit",
+        "Gameplay.Event.OnBounceEnemyShot"
+      ],
+      "effectIds": [
+        "ge-components-densifiermaxhp-half-ge-components-densifiermaxhp-half"
+      ],
+      "effectPaths": [
+        "/Game/Blueprints/Abilities/Effects/Components/GE_Components_DensifierMaxHP_Half.GE_Components_DensifierMaxHP_Half_C"
+      ],
+      "effectBindings": [
+        {
+          "eventTag": "Gameplay.Event.OnBeingHit",
+          "effectId": "ge-components-densifiermaxhp-half-ge-components-densifiermaxhp-half",
+          "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_DensifierMaxHP_Half.GE_Components_DensifierMaxHP_Half_C"
+        },
+        {
+          "eventTag": "Gameplay.Event.OnBounceEnemyShot",
+          "effectId": "ge-components-densifiermaxhp-half-ge-components-densifiermaxhp-half",
+          "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_DensifierMaxHP_Half.GE_Components_DensifierMaxHP_Half_C"
+        }
+      ],
+      "nativeVehicles": [
+        {
+          "vehicleId": "sentinel",
+          "level": 10
+        }
+      ],
+      "source": {
+        "key": "Gameplay.Components.Densifier"
       }
     },
     {
@@ -2893,8 +2922,8 @@
       "key": "Gameplay.Components.HotChamber",
       "slug": "hot-chamber",
       "name": "HOT CHAMBER",
-      "description": "Increases base Shell Damage by value when firing soon after a completed reload (2 secs)",
-      "descriptionTemplate": "Increases base Shell Damage by {LevelValuePercentMultiplyIncrease} when firing soon after a completed reload (2 secs)",
+      "description": "Increases base Shell Damage by value when firing within 2 seconds of a completed reload",
+      "descriptionTemplate": "Increases base Shell Damage by {LevelValuePercentMultiplyIncrease} when firing within 2 seconds of a completed reload",
       "valueTokens": [
         "LevelValuePercentMultiplyIncrease"
       ],
@@ -2924,10 +2953,6 @@
         }
       ],
       "nativeVehicles": [
-        {
-          "vehicleId": "sentinel",
-          "level": 10
-        },
         {
           "vehicleId": "wall",
           "level": 6
@@ -3223,6 +3248,10 @@
         {
           "vehicleId": "ranger",
           "level": 6
+        },
+        {
+          "vehicleId": "sentinel",
+          "level": 3
         }
       ],
       "source": {
@@ -3344,6 +3373,7 @@
         20
       ],
       "tagIds": [
+        "Gameplay.Components.Categories.Durability",
         "Gameplay.Components.Categories.Firepower"
       ],
       "eventTags": [
@@ -3392,31 +3422,45 @@
         "Gameplay.Components.Categories.Firepower"
       ],
       "eventTags": [
+        "Gameplay.Event.LoadoutApplied",
+        "Gameplay.Event.OnReloadComplete",
         "Gameplay.Event.OnSlot1Fired",
         "Gameplay.Event.OnSlot2Fired",
         "Gameplay.Event.OnSlot4Fired"
       ],
       "effectIds": [
-        "ge-components-reloadtimepercenttimed-ge-components-reloadtimepercenttimed"
+        "ge-components-quickslotbuff-ge-components-quickslotbuff",
+        "ge-components-quickslotremover-ge-components-quickslotremover"
       ],
       "effectPaths": [
-        "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ReloadTimePercentTimed.GE_Components_ReloadTimePercentTimed_C"
+        "/Game/Blueprints/Abilities/Effects/Components/GE_Components_QuickSlotBuff.GE_Components_QuickSlotBuff_C",
+        "/Game/Blueprints/Abilities/Effects/Components/GE_Components_QuickSlotRemover.GE_Components_QuickSlotRemover_C"
       ],
       "effectBindings": [
         {
+          "eventTag": "Gameplay.Event.LoadoutApplied",
+          "effectId": "ge-components-quickslotremover-ge-components-quickslotremover",
+          "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_QuickSlotRemover.GE_Components_QuickSlotRemover_C"
+        },
+        {
+          "eventTag": "Gameplay.Event.OnReloadComplete",
+          "effectId": "ge-components-quickslotremover-ge-components-quickslotremover",
+          "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_QuickSlotRemover.GE_Components_QuickSlotRemover_C"
+        },
+        {
           "eventTag": "Gameplay.Event.OnSlot1Fired",
-          "effectId": "ge-components-reloadtimepercenttimed-ge-components-reloadtimepercenttimed",
-          "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ReloadTimePercentTimed.GE_Components_ReloadTimePercentTimed_C"
+          "effectId": "ge-components-quickslotbuff-ge-components-quickslotbuff",
+          "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_QuickSlotBuff.GE_Components_QuickSlotBuff_C"
         },
         {
           "eventTag": "Gameplay.Event.OnSlot2Fired",
-          "effectId": "ge-components-reloadtimepercenttimed-ge-components-reloadtimepercenttimed",
-          "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ReloadTimePercentTimed.GE_Components_ReloadTimePercentTimed_C"
+          "effectId": "ge-components-quickslotbuff-ge-components-quickslotbuff",
+          "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_QuickSlotBuff.GE_Components_QuickSlotBuff_C"
         },
         {
           "eventTag": "Gameplay.Event.OnSlot4Fired",
-          "effectId": "ge-components-reloadtimepercenttimed-ge-components-reloadtimepercenttimed",
-          "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ReloadTimePercentTimed.GE_Components_ReloadTimePercentTimed_C"
+          "effectId": "ge-components-quickslotbuff-ge-components-quickslotbuff",
+          "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_QuickSlotBuff.GE_Components_QuickSlotBuff_C"
         }
       ],
       "nativeVehicles": [
@@ -3500,10 +3544,6 @@
         {
           "vehicleId": "ram",
           "level": 3
-        },
-        {
-          "vehicleId": "sentinel",
-          "level": 3
         }
       ],
       "source": {
@@ -3583,7 +3623,7 @@
         "Gameplay.Components.Categories.Durability"
       ],
       "eventTags": [
-        "Gameplay.Event.OnModuleHit"
+        "Gameplay.Event.OnModuleDamaged"
       ],
       "effectIds": [
         "ge-components-relentlessadaptermaxhp-ge-components-relentlessadaptermaxhp"
@@ -3593,7 +3633,7 @@
       ],
       "effectBindings": [
         {
-          "eventTag": "Gameplay.Event.OnModuleHit",
+          "eventTag": "Gameplay.Event.OnModuleDamaged",
           "effectId": "ge-components-relentlessadaptermaxhp-ge-components-relentlessadaptermaxhp",
           "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_RelentlessAdapterMaxHP.GE_Components_RelentlessAdapterMaxHP_C"
         }
@@ -4157,16 +4197,16 @@
         "Gameplay.Event.OnHitModule"
       ],
       "effectIds": [
-        "ge-components-activereloadtime-ge-components-activereloadtime"
+        "ge-components-weaknessanalyzer-activereloadtime-ge-components-weaknessanalyzer-activereloadtime"
       ],
       "effectPaths": [
-        "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ActiveReloadTime.GE_Components_ActiveReloadTime_C"
+        "/Game/Blueprints/Abilities/Effects/Components/GE_Components_WeaknessAnalyzer_ActiveReloadTime.GE_Components_WeaknessAnalyzer_ActiveReloadTime_C"
       ],
       "effectBindings": [
         {
           "eventTag": "Gameplay.Event.OnHitModule",
-          "effectId": "ge-components-activereloadtime-ge-components-activereloadtime",
-          "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ActiveReloadTime.GE_Components_ActiveReloadTime_C"
+          "effectId": "ge-components-weaknessanalyzer-activereloadtime-ge-components-weaknessanalyzer-activereloadtime",
+          "effectPath": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_WeaknessAnalyzer_ActiveReloadTime.GE_Components_WeaknessAnalyzer_ActiveReloadTime_C"
         }
       ],
       "nativeVehicles": [
@@ -4257,6 +4297,48 @@
       ],
       "source": {
         "key": "Gameplay.TalentTree.Healer.Talent019"
+      }
+    },
+    {
+      "id": "seeker-talent002",
+      "key": "Gameplay.TalentTree.Seeker.Talent002",
+      "slug": "seeker-talent002-ability-cooldown",
+      "name": "Ability Cooldown",
+      "description": "Reduces Ability Cooldown by value seconds (-value seconds per point)",
+      "descriptionTemplate": "Reduces Ability Cooldown by {LevelValueAbs} seconds (-{PointValueAbs} seconds per point)",
+      "valueTokens": [
+        "LevelValueAbs",
+        "PointValueAbs"
+      ],
+      "supplementalDescription": "",
+      "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_AbilityCooldown.T_UI_Talents_AbilityCooldown",
+      "type": "Event",
+      "maxPoints": 5,
+      "pointValues": [
+        -0.6000000238418579,
+        -1.2000000476837158,
+        -1.7999999523162842,
+        -2.4000000953674316,
+        -3
+      ],
+      "eventTags": [
+        "Gameplay.Event.LoadoutApplied"
+      ],
+      "effectIds": [
+        "ge-abilitycooldownflat-ge-abilitycooldownflat"
+      ],
+      "effectPaths": [
+        "/Game/Blueprints/Abilities/Effects/Talents/GE_AbilityCooldownFlat.GE_AbilityCooldownFlat_C"
+      ],
+      "effectBindings": [
+        {
+          "eventTag": "Gameplay.Event.LoadoutApplied",
+          "effectId": "ge-abilitycooldownflat-ge-abilitycooldownflat",
+          "effectPath": "/Game/Blueprints/Abilities/Effects/Talents/GE_AbilityCooldownFlat.GE_AbilityCooldownFlat_C"
+        }
+      ],
+      "source": {
+        "key": "Gameplay.TalentTree.Seeker.Talent002"
       }
     },
     {
@@ -6205,6 +6287,33 @@
       ],
       "source": {
         "key": "Gameplay.TalentTree.Sonar.Talent006"
+      }
+    },
+    {
+      "id": "seeker-talent026",
+      "key": "Gameplay.TalentTree.Seeker.Talent026",
+      "slug": "seeker-talent026-bounty-droid",
+      "name": "Bounty Droid",
+      "description": "If an ally damages the enemy your snitch pinged within 7s, gain value Energy. Triggers once per snitch.",
+      "descriptionTemplate": "If an ally damages the enemy your snitch pinged within 7s, gain {LevelValue} Energy. Triggers once per snitch.",
+      "valueTokens": [
+        "LevelValue"
+      ],
+      "supplementalDescription": "",
+      "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_SeekerSwarmKeystone.T_UI_Talents_SeekerSwarmKeystone",
+      "type": "Event",
+      "maxPoints": 1,
+      "pointValues": [
+        5
+      ],
+      "eventTags": [
+        "Gameplay.Event.LoadoutApplied"
+      ],
+      "effectIds": [],
+      "effectPaths": [],
+      "effectBindings": [],
+      "source": {
+        "key": "Gameplay.TalentTree.Seeker.Talent026"
       }
     },
     {
@@ -8520,6 +8629,33 @@
       }
     },
     {
+      "id": "seeker-talent027",
+      "key": "Gameplay.TalentTree.Seeker.Talent027",
+      "slug": "seeker-talent027-marked-target",
+      "name": "Marked Target",
+      "description": "The enemy your snitch pings takes value more damage from all sources for 7s.",
+      "descriptionTemplate": "The enemy your snitch pings takes {LevelValuePercent} more damage from all sources for 7s.",
+      "valueTokens": [
+        "LevelValuePercent"
+      ],
+      "supplementalDescription": "",
+      "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_SeekerSprintKeystone.T_UI_Talents_SeekerSprintKeystone",
+      "type": "Event",
+      "maxPoints": 1,
+      "pointValues": [
+        0.10000000149011612
+      ],
+      "eventTags": [
+        "Gameplay.Event.LoadoutApplied"
+      ],
+      "effectIds": [],
+      "effectPaths": [],
+      "effectBindings": [],
+      "source": {
+        "key": "Gameplay.TalentTree.Seeker.Talent027"
+      }
+    },
+    {
       "id": "ram-talent019",
       "key": "Gameplay.TalentTree.Ram.Talent019",
       "slug": "ram-talent019-max-energy",
@@ -9514,11 +9650,11 @@
       "type": "Event",
       "maxPoints": 5,
       "pointValues": [
-        40,
-        80,
+        30,
+        60,
+        90,
         120,
-        160,
-        200
+        150
       ],
       "eventTags": [
         "Gameplay.Event.LoadoutApplied"
@@ -9556,11 +9692,11 @@
       "type": "Event",
       "maxPoints": 5,
       "pointValues": [
-        50,
-        100,
-        150,
-        200,
-        250
+        40,
+        80,
+        120,
+        160,
+        200
       ],
       "eventTags": [
         "Gameplay.Event.LoadoutApplied"
@@ -12571,7 +12707,7 @@
       "type": "Event",
       "maxPoints": 1,
       "pointValues": [
-        2
+        3
       ],
       "eventTags": [
         "Gameplay.Event.WhileAirborne"
@@ -12591,33 +12727,6 @@
       ],
       "source": {
         "key": "Gameplay.TalentTree.Ranger.Talent026"
-      }
-    },
-    {
-      "id": "seeker-talent026",
-      "key": "Gameplay.TalentTree.Seeker.Talent026",
-      "slug": "seeker-talent026-relentless-pursuit",
-      "name": "Relentless Pursuit",
-      "description": "If your snitch pings the same enemy your previous snitch pinged, refund value% of the ability's Energy cost.",
-      "descriptionTemplate": "If your snitch pings the same enemy your previous snitch pinged, refund {LevelValue}% of the ability's Energy cost.",
-      "valueTokens": [
-        "LevelValue"
-      ],
-      "supplementalDescription": "",
-      "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_SeekerSwarmKeystone.T_UI_Talents_SeekerSwarmKeystone",
-      "type": "Event",
-      "maxPoints": 1,
-      "pointValues": [
-        100
-      ],
-      "eventTags": [
-        "Gameplay.Event.LoadoutApplied"
-      ],
-      "effectIds": [],
-      "effectPaths": [],
-      "effectBindings": [],
-      "source": {
-        "key": "Gameplay.TalentTree.Seeker.Talent026"
       }
     },
     {
@@ -13010,11 +13119,11 @@
       "type": "Event",
       "maxPoints": 5,
       "pointValues": [
-        -0.30000001192092896,
+        -0.20000000298023224,
+        -0.4000000059604645,
         -0.6000000238418579,
-        -0.8999999761581421,
-        -1.2000000476837158,
-        -1.5
+        -0.800000011920929,
+        -1
       ],
       "eventTags": [
         "Gameplay.Event.LoadoutApplied"
@@ -14973,11 +15082,11 @@
       "type": "Event",
       "maxPoints": 5,
       "pointValues": [
-        1,
         2,
-        3,
         4,
-        5
+        6,
+        8,
+        10
       ],
       "eventTags": [
         "Gameplay.Event.LoadoutApplied"
@@ -17088,48 +17197,6 @@
       }
     },
     {
-      "id": "seeker-talent002",
-      "key": "Gameplay.TalentTree.Seeker.Talent002",
-      "slug": "seeker-talent002-starting-energy",
-      "name": "Starting Energy",
-      "description": "Increases Starting Energy by value (+value per point)",
-      "descriptionTemplate": "Increases Starting Energy by {LevelValue} (+{PointValue} per point)",
-      "valueTokens": [
-        "LevelValue",
-        "PointValue"
-      ],
-      "supplementalDescription": "",
-      "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_StartingEnergy.T_UI_Talents_StartingEnergy",
-      "type": "Event",
-      "maxPoints": 5,
-      "pointValues": [
-        6,
-        12,
-        18,
-        24,
-        30
-      ],
-      "eventTags": [
-        "Gameplay.Event.LoadoutApplied"
-      ],
-      "effectIds": [
-        "ge-startingenergy-ge-startingenergy"
-      ],
-      "effectPaths": [
-        "/Game/Blueprints/Abilities/Effects/Talents/GE_StartingEnergy.GE_StartingEnergy_C"
-      ],
-      "effectBindings": [
-        {
-          "eventTag": "Gameplay.Event.LoadoutApplied",
-          "effectId": "ge-startingenergy-ge-startingenergy",
-          "effectPath": "/Game/Blueprints/Abilities/Effects/Talents/GE_StartingEnergy.GE_StartingEnergy_C"
-        }
-      ],
-      "source": {
-        "key": "Gameplay.TalentTree.Seeker.Talent002"
-      }
-    },
-    {
       "id": "sentinel-talent007",
       "key": "Gameplay.TalentTree.Sentinel.Talent007",
       "slug": "sentinel-talent007-starting-energy",
@@ -18312,33 +18379,6 @@
       }
     },
     {
-      "id": "seeker-talent027",
-      "key": "Gameplay.TalentTree.Seeker.Talent027",
-      "slug": "seeker-talent027-thrill-of-the-hunt",
-      "name": "Thrill of the Hunt",
-      "description": "When your snitch finds its target, gain +value km/h max speed for 10s.",
-      "descriptionTemplate": "When your snitch finds its target, gain +{LevelValue} km/h max speed for 10s.",
-      "valueTokens": [
-        "LevelValue"
-      ],
-      "supplementalDescription": "",
-      "icon": "/Game/UI/_Shared/Textures/Icon_Talents/Temp/T_UI_Talents_SeekerSprintKeystone.T_UI_Talents_SeekerSprintKeystone",
-      "type": "Event",
-      "maxPoints": 1,
-      "pointValues": [
-        15
-      ],
-      "eventTags": [
-        "Gameplay.Event.LoadoutApplied"
-      ],
-      "effectIds": [],
-      "effectPaths": [],
-      "effectBindings": [],
-      "source": {
-        "key": "Gameplay.TalentTree.Seeker.Talent027"
-      }
-    },
-    {
       "id": "blink-talent015",
       "key": "Gameplay.TalentTree.Blink.Talent015",
       "slug": "blink-talent015-tracking-assist-energy",
@@ -19407,7 +19447,7 @@
       "slug": "brawler",
       "name": "Brawler",
       "vehicleId": "brawler",
-      "version": 19181,
+      "version": 37359,
       "talentCount": 21,
       "nodes": [
         {
@@ -19498,9 +19538,7 @@
           "row": 0,
           "maxPoints": 5,
           "isKeystone": false,
-          "prerequisiteIds": [
-            "brawler-talent009"
-          ]
+          "prerequisiteIds": []
         },
         {
           "talentId": "brawler-talent014",
@@ -23450,78 +23488,9 @@
       "stackPeriodResetPolicy": "",
       "tags": [],
       "ownedTags": [
+        "Gameplay.Abilities.UntilFire",
         "Gameplay.Components.CoreAmp.Buff"
       ],
-      "removeEffectsWithTags": [],
-      "tagRequirements": {
-        "application": {
-          "requiredTags": [],
-          "ignoredTags": [],
-          "tagQuery": null
-        },
-        "ongoing": {
-          "requiredTags": [],
-          "ignoredTags": [],
-          "tagQuery": null
-        },
-        "removal": {
-          "requiredTags": [],
-          "ignoredTags": [],
-          "tagQuery": null
-        }
-      },
-      "modifiers": [],
-      "executions": [],
-      "gameplayCues": []
-    },
-    {
-      "id": "ge-components-coreampbuffremover-ge-components-coreampbuffremover",
-      "path": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_CoreAmpBuffRemover.GE_Components_CoreAmpBuffRemover_C",
-      "durationPolicy": "Instant",
-      "durationMagnitude": "(ScalableFloatMagnitude=(Value=8.000000,Curve=(),RegistryType=\"None\"),AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()),CustomMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()),SetByCallerMagnitude=(DataTag=()))",
-      "period": "(Curve=(),RegistryType=\"None\")",
-      "chanceToApply": "(Value=1.000000,Curve=(),RegistryType=\"None\")",
-      "stackingType": "AggregateBySource",
-      "stackLimit": 1,
-      "stackDurationRefreshPolicy": "",
-      "stackPeriodResetPolicy": "",
-      "tags": [],
-      "ownedTags": [],
-      "removeEffectsWithTags": [],
-      "tagRequirements": {
-        "application": {
-          "requiredTags": [],
-          "ignoredTags": [],
-          "tagQuery": null
-        },
-        "ongoing": {
-          "requiredTags": [],
-          "ignoredTags": [],
-          "tagQuery": null
-        },
-        "removal": {
-          "requiredTags": [],
-          "ignoredTags": [],
-          "tagQuery": null
-        }
-      },
-      "modifiers": [],
-      "executions": [],
-      "gameplayCues": []
-    },
-    {
-      "id": "ge-components-coreamphittrigger-ge-components-coreamphittrigger",
-      "path": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_CoreAmpHitTrigger.GE_Components_CoreAmpHitTrigger_C",
-      "durationPolicy": "HasDuration",
-      "durationMagnitude": "(ScalableFloatMagnitude=(Value=1.000000,Curve=(),RegistryType=\"None\"),AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()),CustomMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()),SetByCallerMagnitude=(DataTag=()))",
-      "period": "(Curve=(),RegistryType=\"None\")",
-      "chanceToApply": "(Value=1.000000,Curve=(),RegistryType=\"None\")",
-      "stackingType": "AggregateBySource",
-      "stackLimit": 1,
-      "stackDurationRefreshPolicy": "",
-      "stackPeriodResetPolicy": "",
-      "tags": [],
-      "ownedTags": [],
       "removeEffectsWithTags": [],
       "tagRequirements": {
         "application": {
@@ -23584,6 +23553,51 @@
           "magnitudeType": "CustomCalculationClass",
           "calculationClass": "/Script/CoreUObject.Class'/Script/Tyr.TyrComponentMagCalculation'",
           "scalableFloatValue": null
+        }
+      ],
+      "executions": [],
+      "gameplayCues": []
+    },
+    {
+      "id": "ge-components-densifiermaxhp-half-ge-components-densifiermaxhp-half",
+      "path": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_DensifierMaxHP_Half.GE_Components_DensifierMaxHP_Half_C",
+      "durationPolicy": "Infinite",
+      "durationMagnitude": "(ScalableFloatMagnitude=(Value=2.000000,Curve=(),RegistryType=\"None\"),AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()),CustomMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()),SetByCallerMagnitude=(DataTag=()))",
+      "period": "(Curve=(),RegistryType=\"None\")",
+      "chanceToApply": "(Value=1.000000,Curve=(),RegistryType=\"None\")",
+      "stackingType": "AggregateByTarget",
+      "stackLimit": 100,
+      "stackDurationRefreshPolicy": "",
+      "stackPeriodResetPolicy": "",
+      "tags": [],
+      "ownedTags": [],
+      "removeEffectsWithTags": [],
+      "tagRequirements": {
+        "application": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        },
+        "ongoing": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        },
+        "removal": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        }
+      },
+      "modifiers": [
+        {
+          "attribute": "MaxHealth",
+          "attributeSet": "TyrAttributeSetHealth",
+          "op": "AddBase",
+          "magnitude": "MagnitudeCalculationType=ScalableFloat | ScalableFloatMagnitude=(Value=8.000000,Curve=(),RegistryType=\"None\") | AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()) | CustomMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()) | SetByCallerMagnitude=(DataTag=())",
+          "magnitudeType": "ScalableFloat",
+          "calculationClass": "",
+          "scalableFloatValue": 8.0
         }
       ],
       "executions": [],
@@ -24507,6 +24521,86 @@
       "gameplayCues": []
     },
     {
+      "id": "ge-components-quickslotbuff-ge-components-quickslotbuff",
+      "path": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_QuickSlotBuff.GE_Components_QuickSlotBuff_C",
+      "durationPolicy": "Infinite",
+      "durationMagnitude": "(ScalableFloatMagnitude=(Value=1.000000,Curve=(),RegistryType=\"None\"),AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()),CustomMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()),SetByCallerMagnitude=(DataTag=()))",
+      "period": "(Curve=(),RegistryType=\"None\")",
+      "chanceToApply": "(Value=1.000000,Curve=(),RegistryType=\"None\")",
+      "stackingType": "AggregateBySource",
+      "stackLimit": 1,
+      "stackDurationRefreshPolicy": "",
+      "stackPeriodResetPolicy": "",
+      "tags": [],
+      "ownedTags": [],
+      "removeEffectsWithTags": [],
+      "tagRequirements": {
+        "application": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        },
+        "ongoing": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        },
+        "removal": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        }
+      },
+      "modifiers": [
+        {
+          "attribute": "ReloadTime",
+          "attributeSet": "TyrAttributeSetVehicleStats",
+          "op": "MultiplyAdditive",
+          "magnitude": "MagnitudeCalculationType=CustomCalculationClass | ScalableFloatMagnitude=(Curve=(),RegistryType=\"None\") | AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()) | CustomMagnitude=(CalculationClassMagnitude=\"/Script/CoreUObject.Class'/Script/Tyr.TyrComponentMagCalculation'\",Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()) | SetByCallerMagnitude=(DataTag=())",
+          "magnitudeType": "CustomCalculationClass",
+          "calculationClass": "/Script/CoreUObject.Class'/Script/Tyr.TyrComponentMagCalculation'",
+          "scalableFloatValue": null
+        }
+      ],
+      "executions": [],
+      "gameplayCues": []
+    },
+    {
+      "id": "ge-components-quickslotremover-ge-components-quickslotremover",
+      "path": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_QuickSlotRemover.GE_Components_QuickSlotRemover_C",
+      "durationPolicy": "Instant",
+      "durationMagnitude": "(ScalableFloatMagnitude=(Value=8.000000,Curve=(),RegistryType=\"None\"),AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()),CustomMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()),SetByCallerMagnitude=(DataTag=()))",
+      "period": "(Curve=(),RegistryType=\"None\")",
+      "chanceToApply": "(Value=1.000000,Curve=(),RegistryType=\"None\")",
+      "stackingType": "AggregateBySource",
+      "stackLimit": 1,
+      "stackDurationRefreshPolicy": "",
+      "stackPeriodResetPolicy": "",
+      "tags": [],
+      "ownedTags": [],
+      "removeEffectsWithTags": [],
+      "tagRequirements": {
+        "application": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        },
+        "ongoing": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        },
+        "removal": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        }
+      },
+      "modifiers": [],
+      "executions": [],
+      "gameplayCues": []
+    },
+    {
       "id": "ge-components-reactivemodulesbuff-ge-components-reactivemodulesbuff",
       "path": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ReactiveModulesBuff.GE_Components_ReactiveModulesBuff_C",
       "durationPolicy": "Infinite",
@@ -24667,51 +24761,6 @@
           "attribute": "MaxHealth",
           "attributeSet": "TyrAttributeSetHealth",
           "op": "AddBase",
-          "magnitude": "MagnitudeCalculationType=CustomCalculationClass | ScalableFloatMagnitude=(Curve=(),RegistryType=\"None\") | AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()) | CustomMagnitude=(CalculationClassMagnitude=\"/Script/CoreUObject.Class'/Script/Tyr.TyrComponentMagCalculation'\",Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()) | SetByCallerMagnitude=(DataTag=())",
-          "magnitudeType": "CustomCalculationClass",
-          "calculationClass": "/Script/CoreUObject.Class'/Script/Tyr.TyrComponentMagCalculation'",
-          "scalableFloatValue": null
-        }
-      ],
-      "executions": [],
-      "gameplayCues": []
-    },
-    {
-      "id": "ge-components-reloadtimepercenttimed-ge-components-reloadtimepercenttimed",
-      "path": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_ReloadTimePercentTimed.GE_Components_ReloadTimePercentTimed_C",
-      "durationPolicy": "HasDuration",
-      "durationMagnitude": "(ScalableFloatMagnitude=(Value=1.000000,Curve=(),RegistryType=\"None\"),AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()),CustomMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()),SetByCallerMagnitude=(DataTag=()))",
-      "period": "(Curve=(),RegistryType=\"None\")",
-      "chanceToApply": "(Value=1.000000,Curve=(),RegistryType=\"None\")",
-      "stackingType": "AggregateBySource",
-      "stackLimit": 1,
-      "stackDurationRefreshPolicy": "",
-      "stackPeriodResetPolicy": "",
-      "tags": [],
-      "ownedTags": [],
-      "removeEffectsWithTags": [],
-      "tagRequirements": {
-        "application": {
-          "requiredTags": [],
-          "ignoredTags": [],
-          "tagQuery": null
-        },
-        "ongoing": {
-          "requiredTags": [],
-          "ignoredTags": [],
-          "tagQuery": null
-        },
-        "removal": {
-          "requiredTags": [],
-          "ignoredTags": [],
-          "tagQuery": null
-        }
-      },
-      "modifiers": [
-        {
-          "attribute": "ReloadTime",
-          "attributeSet": "TyrAttributeSetVehicleStats",
-          "op": "MultiplyAdditive",
           "magnitude": "MagnitudeCalculationType=CustomCalculationClass | ScalableFloatMagnitude=(Curve=(),RegistryType=\"None\") | AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=()),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()) | CustomMagnitude=(CalculationClassMagnitude=\"/Script/CoreUObject.Class'/Script/Tyr.TyrComponentMagCalculation'\",Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()) | SetByCallerMagnitude=(DataTag=())",
           "magnitudeType": "CustomCalculationClass",
           "calculationClass": "/Script/CoreUObject.Class'/Script/Tyr.TyrComponentMagCalculation'",
@@ -25119,7 +25168,9 @@
       "stackDurationRefreshPolicy": "",
       "stackPeriodResetPolicy": "",
       "tags": [],
-      "ownedTags": [],
+      "ownedTags": [
+        "Gameplay.Abilities.UntilFire"
+      ],
       "removeEffectsWithTags": [],
       "tagRequirements": {
         "application": {
@@ -25337,6 +25388,43 @@
           "scalableFloatValue": 0.025
         }
       ],
+      "executions": [],
+      "gameplayCues": []
+    },
+    {
+      "id": "ge-components-weaknessanalyzer-activereloadtime-ge-components-weaknessanalyzer-activereloadtime",
+      "path": "/Game/Blueprints/Abilities/Effects/Components/GE_Components_WeaknessAnalyzer_ActiveReloadTime.GE_Components_WeaknessAnalyzer_ActiveReloadTime_C",
+      "durationPolicy": "Instant",
+      "durationMagnitude": "(MagnitudeCalculationType=AttributeBased,ScalableFloatMagnitude=(Curve=(),RegistryType=\"None\"),AttributeBasedMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),BackingAttribute=(AttributeToCapture=(AttributeName=\"ReloadTime\",Attribute=/Script/Tyr.TyrAttributeSetVehicleStats:ReloadTime,AttributeOwner=\"/Script/CoreUObject.Class'/Script/Tyr.TyrAttributeSetVehicleStats'\"),bSnapshot=True),AttributeCurve=(),SourceTagFilter=(),TargetTagFilter=()),CustomMagnitude=(Coefficient=(Value=1.000000,Curve=(),RegistryType=\"None\"),PreMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),PostMultiplyAdditiveValue=(Curve=(),RegistryType=\"None\"),FinalLookupCurve=()),SetByCallerMagnitude=(DataTag=()))",
+      "period": "(Curve=(),RegistryType=\"None\")",
+      "chanceToApply": "(Value=1.000000,Curve=(),RegistryType=\"None\")",
+      "stackingType": "",
+      "stackLimit": 1,
+      "stackDurationRefreshPolicy": "",
+      "stackPeriodResetPolicy": "",
+      "tags": [],
+      "ownedTags": [],
+      "removeEffectsWithTags": [],
+      "tagRequirements": {
+        "application": {
+          "requiredTags": [],
+          "ignoredTags": [
+            "Gameplay.Components.WeaknessAnalyzer.Cooldown"
+          ],
+          "tagQuery": null
+        },
+        "ongoing": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        },
+        "removal": {
+          "requiredTags": [],
+          "ignoredTags": [],
+          "tagQuery": null
+        }
+      },
+      "modifiers": [],
       "executions": [],
       "gameplayCues": []
     },
@@ -27556,6 +27644,18 @@
         "key": "Map_Fields",
         "minimapTexture": "/Game/UI/_Shared/Textures/Minimap/T_Minimap_Fields.T_Minimap_Fields",
         "lobbyTexture": "/Game/UI/Loading/Textures/T_UI_Splashart_Map_Fields.T_UI_Splashart_Map_Fields"
+      }
+    },
+    {
+      "id": "glade",
+      "slug": "glade",
+      "name": "Glade",
+      "displayName": "Prototype: Glade",
+      "status": "prototype",
+      "source": {
+        "key": "Map_Glade",
+        "minimapTexture": "/Game/UI/_Shared/Textures/Minimap/T_Minimap_Glade.T_Minimap_Glade",
+        "lobbyTexture": "/Game/UI/Loading/Textures/T_UI_Splashart_Map_Glade.T_UI_Splashart_Map_Glade"
       }
     },
     {
